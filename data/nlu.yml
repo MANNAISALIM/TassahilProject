@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -9,7 +8,7 @@ nlu:
     - hello there
     - good morning
     - good evening
-    - hallo  
+    - hallo
     - moin
     - hola
     - hey there
@@ -19,8 +18,8 @@ nlu:
     - goodevening
     - good afternoon
     - howdy
-- intent : name_entry
-  examples: | 
+- intent: name_entry
+  examples: |
     - my name is [ali](name)
     - I am [hedi](name)
     - name is [kais](name)
@@ -33,51 +32,51 @@ nlu:
     - i am called [souha](name)
     - call me [wael](name)
     - [ala](name)
-
-- intent : fine
-  examples : | 
-    - how are you ? 
+    - my name is [salim](name)
+- intent: fine
+  examples: |
+    - how are you ?
     - and you !
     - are you ok !
-- intent : revile
-  examples : |
+    - fine and you
+- intent: revile
+  examples: |
     - curse
-    - damn 
+    - damn
     - shame
     - shit
-
-- intent : jokes
+- intent: jokes
   examples: |
-    - tell me a joke 
+    - tell me a joke
     - I need a joke
     - joke
     - any jokes!
     - funny joke
-    - not funny 
+    - not funny
     - I want to  laugh
     - make me laugh
-- intent : inform_location
+- intent: inform_location
   examples: |
     - where is tassahil center
     - tassahil location!
     - how can'I find tassahil center
-    - is tassahil in sfax 
+    - is tassahil in sfax
     - tunis !
     - where is tassahil
     - is the center in tunis city
-- intent : inform_definition
+- intent: inform_definition
   examples: |
     - what is tassahil
     - presentation
     - what is Tassahil Center for Intelligent Solutions?
-    - can you define tassahil 
+    - can you define tassahil
     - tell me more about tassahil
     - present me tassahil
     - can you tell me what is tassahil center!
     - I need informations about Tassahil Center for Intelligent Solutions!
     - I need more informations about tassahil center!
     - I don't know tassahil center
-- intent : inform_services
+- intent: inform_services
   examples: |
     - what is your services ?
     - tassahil services
@@ -85,35 +84,35 @@ nlu:
     - what is your domain   !
     - services ?
     - any inforamtion about tassahil services!
-    - what about services 
-    - how many sevices 
-    - services provides 
-- intent : webinar_name
+    - what about services
+    - how many sevices
+    - services provides
+- intent: webinar_name
   examples: |
     - what is the topic of the webinar ?
-    - what this presentation will be on 
+    - what this presentation will be on
     - i want to know the topic of the webinar
     - webinar topic
     - webinar name
-    - the title of the webinar 
+    - the title of the webinar
     - what about this webinar
-    - what we will talk about 
-    - what about the topic 
-    - what is the name of the webinar 
+    - what we will talk about
+    - what about the topic
+    - what is the name of the webinar
     - what is the topic of the presentation
-    - what will be the topic of the online seminar 
-- intent : webinar_date
+    - what will be the topic of the online seminar
+- intent: webinar_date
   examples: |
     - when the webinar will begin ?
-    - time of the webinar 
-    - time    
+    - time of the webinar
+    - time
     - what is the date
-    - when will the webinar start 
+    - when will the webinar start
     - when does the webinar start
-    - Is this webinar scheduled for today? 
+    - Is this webinar scheduled for today?
     - Does this webinar have a date for today?
-    - the webinar's time  
-- intent : webinar_participants
+    - the webinar's time
+- intent: webinar_participants
   examples: |
     - how many participants in the webinar ?
     - Attendance at the webinar !
@@ -122,25 +121,25 @@ nlu:
     - how many persons will be their
     - The number of people expected to attend
     - Estimated number of attendees
-    - how many people will participate 
+    - how many people will participate
     - how many person will participate in this webinar
-- intent : webinar_duration
+- intent: webinar_duration
   examples: |
     - how long the webinar will take  ?
     - the length of the webinar
     - what the webinar's duration will be
     - what the webinar's length will be
-- intent : webinar_instructor
+- intent: webinar_instructor
   examples: |
     - who is the instructor ?
     - What is the name of the instructor?
     - who will assist the webinar
     - Can you tell me the name of the instructor?
     - Is there a name of the instructor?
-    - instructor name please 
+    - instructor name please
     - instructor
-    - webinar presenter 
-- intent : webinar_domain
+    - webinar presenter
+- intent: webinar_domain
   examples: |
     - what is the webinar domain ?
     - what we will talk about in this webinar
@@ -148,14 +147,14 @@ nlu:
     - in which domain the webinar will go deeper
     - What domains will be covered by the webinar?
     - which domain the webinar will go into depth
-- intent : webinar_content
+- intent: webinar_content
   examples: |
-    - the content of the webinar 
+    - the content of the webinar
     - what is the content of the webinar?
-    - how will the webinar be structured? 
-    - how will the webinar be organized? 
-    - What will the webinar consist of? 
-- intent : webinar_registration
+    - how will the webinar be structured?
+    - how will the webinar be organized?
+    - What will the webinar consist of?
+- intent: webinar_registration
   examples: |
     - can you send me the link of registration
     - please let me know how to register.
@@ -163,28 +162,28 @@ nlu:
     - what about registration?
     - how do I register?
     - what is the registration process?
-    - i want to be present in this webinar 
+    - i want to be present in this webinar
     - I would like to attend the webinar
-- intent : webinar_cost
+- intent: webinar_cost
   examples: |
     - how much it cost ?
     - how much did it cost?
     - the price of the webinar
     - Approximately how much did it cost?
     - Was it a lot or a little?
-    - Please let me know the price. 
-    - The price was not displayed. 
+    - Please let me know the price.
+    - The price was not displayed.
     - what about the price !
-    - price please 
-- intent : webinar_details
+    - price please
+- intent: webinar_details
   examples: |
     - tell me about the webinar
-    - webinar 
+    - webinar
     - webinar details
     - waht about the next webinar
     - next webinar
     - tell me more about the webinar
-    - webinar briefly 
+    - webinar briefly
 - intent: goodbye
   examples: |
     - good afternoon
@@ -198,7 +197,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -207,7 +205,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -217,7 +214,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -234,7 +230,7 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-    - I am fine 
+    - I am fine
     - fine, thank you
     - I am doing ok
     - I am doing good
@@ -242,7 +238,6 @@ nlu:
     - better today
     - I'm good
     - I am good
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -259,7 +254,6 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -274,38 +268,36 @@ nlu:
     - am I speak to a bot?
     - am I speak to an assistant ?
     - what is your name?
-
-  
+    - what is your name
 - intent: jobs
   examples: |
-    - what about jobs in this domain 
-    - jobs 
-    - jobs in the word 
-    - new jobs 
-    - how many jobs 
-    - need job 
-    - i need a job 
-    - opportunity to work 
+    - what about jobs in this domain
+    - jobs
+    - jobs in the word
+    - new jobs
+    - how many jobs
+    - need job
+    - i need a job
+    - opportunity to work
     - work
 - intent: fromwekipedia
   examples: |
     - what is hello world programme ?
-    - more information about hello world programme 
-    - hello world! 
+    - more information about hello world programme
+    - hello world!
     - print(hello world)
     - what about hello world  programme
-    - more informations about hello world 
-
-- intent : out_of_scoop
+    - more informations about hello world
+    - and what is hello world
+- intent: out_of_scoop
   examples: |
     - I want to order food
     - what is 2 + 2
     - who is the us president ?
-- intent : laughing
+- intent: laughing
   examples: |
     - hhhhhh
     - Hahaha
     - HahahaHahahahaha
     - Hihihi
     - hhhhhhhhhhhhhh
-
