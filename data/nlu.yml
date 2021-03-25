@@ -19,6 +19,7 @@ nlu:
     - good afternoon
     - howdy
     - hi sara
+    - hey sara
 - intent: name_entry
   examples: |
     - my name is [ali](name)
@@ -35,12 +36,14 @@ nlu:
     - [ala](name)
     - my name is [salim](name)
     - yes my name is [salim](name)
+    - salim my name is [salim](name)
 - intent: fine
   examples: |
     - how are you ?
     - and you !
     - are you ok !
     - fine and you
+    - and you
 - intent: revile
   examples: |
     - curse
@@ -67,6 +70,7 @@ nlu:
     - where is tassahil
     - is the center in tunis city
     - and wher is tsaahil
+    - just  tell me where is tassahil
 - intent: inform_definition
   examples: |
     - what is tassahil
@@ -200,6 +204,8 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - ok then bye
+    - bye sara
 - intent: affirm
   examples: |
     - yes
@@ -210,6 +216,7 @@ nlu:
     - correct
     - yes of  corse
     - yes sur
+    - yes thanks
 - intent: deny
   examples: |
     - no
@@ -244,6 +251,7 @@ nlu:
     - I'm good
     - I am good
     - thanks
+    - fine
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -275,6 +283,7 @@ nlu:
     - am I speak to an assistant ?
     - what is your name?
     - what is your name
+    - and what is your name
 - intent: jobs
   examples: |
     - what about jobs in this domain
@@ -296,6 +305,12 @@ nlu:
     - more informations about hello world
     - and what is hello world
     - what iis helo world programme
+    - hello world
+    - hellow orld
+    - what is hello world programme
+    - helo world
+    - whats is hello world programme
+    - what is helo world programme
 - intent: out_of_scoop
   examples: |
     - I want to order food
@@ -308,3 +323,4 @@ nlu:
     - HahahaHahahahaha
     - Hihihi
     - hhhhhhhhhhhhhh
+    - hhhhhhhh
