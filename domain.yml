@@ -1,0 +1,210 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- fine:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- inform_location:
+    use_entities: true
+- inform_definition:
+    use_entities: true
+- inform_services:
+    use_entities: true
+- jokes:
+    use_entities: true
+- revile:
+    use_entities: true
+- name_entry:
+    use_entities: true
+- webinar_name:
+    use_entities: true
+- webinar_participants:
+    use_entities: true
+- webinar_duration:
+    use_entities: true
+- webinar_instructor:
+    use_entities: true
+- webinar_domain:
+    use_entities: true
+- webinar_content:
+    use_entities: true
+- webinar_registration:
+    use_entities: true
+- webinar_cost:
+    use_entities: true
+- webinar_date:
+    use_entities: true
+- webinar_details:
+    use_entities: true
+- jobs:
+    use_entities: true
+- fromwekipedia:
+    use_entities: true
+- out_of_scoop:
+    use_entities: true
+- nlu_fallback:
+    use_entities: true
+- laughing:
+    use_entities: true
+entities:
+- name
+slots:
+  name:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+responses:
+  utter_greet:
+  - text: Hey ! How are you?
+  - text: Hey friend! How are you?
+  - text: Hi ! How are you?
+  - text: Hi there! how are you ?
+  utter_name_entry:
+  - text: nice to meet you.How can I help you {name} ?
+  - text: ' It is a pleaser to speak with you.Can I help you {name} !!! '
+  - text: I am looking forward to speaking with you. How can I help you {name}?
+  utter_i_m_fine:
+  - text: ' So  perfect . What do you want me to call you? '
+  - text: ' so so perfect.  what is your name?'
+  - text: ' Feeling like a king.  What do you want me to call you?'
+  - text: ' I am going to save the world.  what is your name?'
+  utter_happy_joke:
+  - text: ' Did you hear about the italian chef that died? He pasta way :) '
+  - text: ' My boss told me to have a good day.. so I went home :)'
+  - text: Somebody stole my microsoft office and they are going to pay - you have my Word :)
+  - text: ' Why is Peter Pan always flying? He neverlands :) '
+  - text: " When will the little snake arrive? I don't know but he won't be long... :)"
+  utter_revile:
+  - text: Please, don't say that kind of words again !
+  - text: ' Stop saying that please !'
+  - text: ' it is not funny !'
+  - text: ' you are bigger then saying this words! so i beg you to stop it '
+  - text: ' Stop it or i will quit this conversation !'
+  utter_inform_location:
+  - text: 'You can find tassahil center in this location : 1 Khaled Ibn walid  BP 3000, Sfax, Tunisia .Find us on [google maps] (https://www.google.com/maps/search/1+Khaled+Ibn+walid++BP+3000,+Sfax,+Tunisia+/@34.7614189,10.7381691,13.54z)'
+  utter_inform_definition:
+  - text: 'Tassahil Center for Intelligent Solutions is a service company that was created in July 2020 following a need in Tunisia to bring together Tunisian scientists interested in the field of AI . For more details, here is our [website](https://tassahil.com/) '
+  utter_inform_services:
+  - text: ' Tassahil offer many services like : Training around the AI, Training around the IOT, Career reconversion sessions in AI and IOT academic projects (PFE), Research projects (Master Doctorate) and industrial, Information System Services and Solution Consulting and Development of innovative solutions . For more details, here is our [website](https://tassahil.com/)'
+  utter_cheer_up:
+  - image: ' https://i.imgur.com/nGF1K8f.jpg'
+    text: 'Here is something to cheer you up:'
+  - text: Don t worry it is gonna be ok
+  - text: it is ok,look forward
+  - text: 'Just relax and take it easy '
+  - text: Life is short ,enjoy yours
+  - text: 'sunny day will come '
+  - text: Nothing can stop you , try again if you fail
+  utter_did_that_help:
+  - text: 'Did that help you {name}? '
+  - text: 'is it helpful {name} ? '
+  utter_happy:
+  - text: 'Great , carry on!  '
+  - text: wonderful.
+  - text: 'I m happy to hear that.  '
+  - text: amazing.
+  - text: 'so so perfect.  '
+  - text: perfect .
+  utter_goodbye:
+  - text: have a nice day {name}
+  - text: good by {name}
+  - text: goodbye {name}
+  - text: see you around {name}
+  - text: Bye {name}
+  - text: bye bye {name}
+  - text: see you later {name}
+  - text: 'see you soon {name} '
+  - text: until we meet again
+  utter_webinar_name:
+  - text: ' This webinar name is : {webinarname}'
+  utter_webinar_date:
+  - text: ' We will be starting this webinar on :{webinardate}.'
+  utter_webinar_participants:
+  - text: ' So far, the number of participants is  {webinarparticipants}, and it could increase.'
+  utter_webinar_duration:
+  - text: ' The event is expected to take {webinarduration}.'
+  utter_webinar_instructor:
+  - text: ' ok then, this webinar will be instructed by {webinarinstructor}.'
+  utter_webinar_domain:
+  - text: ' This webinar focuses on {webinardomain}.'
+  utter_webinar_content:
+  - text: ' The seminar will include {webinarcontent}.'
+  utter_webinar_registration:
+  - text: ' Here is the link to register {webinarlink}.'
+  utter_webinar_cost:
+  - text: ' Please visit our [website](https://tassahil.com/) to get more  information.'
+  utter_webinar_details:
+  - text: " This webinar is named  {webinarname},it wil be start on :{webinardate} and it will take {webinarduration}.The webinar will be instructed by {webinarinstructor}.So don't miss this event and here is the link to register {webinarlink}. "
+  utter_jobs:
+  - text: ' With pleasure , the company {company} need a {jobs} . '
+  utter_fromwekipedia:
+  - text: ' ok ! {helloworld} '
+  utter_iamabot:
+  - text: My name is Sara ! and I will be your assistant for this conversation . How can I help you {name} ?
+  - text: I am Sara ! Does that count , I will prove it, ask your question now and be impressed by my fluffy genius :).How can I help you {name} ?
+  utter_out_of_scoop:
+  - text: Sorry , I didn't get what you said. Please rephrase what you said.
+  - text: Sorry, I don't understand you.
+  - text: Sorry , I didn't get what you said
+  utter_laughing:
+  - text: Hahaha
+  - text: hhhhhh
+actions:
+- utter_greet
+- utter_i_m_fine
+- utter_cheer_up
+- utter_did_that_help
+- utter_goodbye
+- utter_iamabot
+- utter_happy_joke
+- utter_inform_location
+- utter_inform_services
+- utter_inform_definition
+- utter_revile
+- utter_webinar_date
+- utter_webinar_name
+- utter_name_entry
+- action_webinar_name
+- action_webinar_date
+- utter_webinar_participants
+- action_webinar_participants
+- utter_webinar_duration
+- action_webinar_duration
+- utter_webinar_instructor
+- action_webinar_instructor
+- utter_webinar_domain
+- action_webinar_domain
+- utter_webinar_content
+- action_webinar_content
+- utter_webinar_registration
+- action_webinar_registration
+- utter_webinar_cost
+- action_webinar_cost
+- utter_webinar_details
+- action_webinar_details
+- utter_jobs
+- action_jobs
+- utter_fromwekipedia
+- action_fromwekipedia
+- utter_out_of_scoop
+- utter_laughing
+forms: {}
+e2e_actions: []

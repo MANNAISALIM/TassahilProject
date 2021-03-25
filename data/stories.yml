@@ -1,0 +1,112 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: fine 
+  - action: utter_i_m_fine
+  - intent: fromwekipedia
+  - action: action_fromwekipedia
+  - intent: revile
+  - action: utter_revile
+
+
+  
+- story: befor webinar path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: jobs
+  - action: action_jobs
+  - intent: webinar_details
+  - action: action_webinar_details
+  - intent: webinar_name
+  - action: action_webinar_name
+  - intent: webinar_date
+  - action: action_webinar_date  
+  - intent: webinar_participants
+  - action: action_webinar_participants
+  - intent: webinar_duration
+  - action: action_webinar_duration
+  - intent: webinar_instructor
+  - action: action_webinar_instructor
+  - intent: webinar_domain
+  - action: action_webinar_domain
+  - intent: webinar_content
+  - action: action_webinar_content
+  - intent: webinar_registration
+  - action: action_webinar_registration
+  - intent: webinar_cost
+  - action: action_webinar_cost
+- story: happy path ok
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fine 
+  - action: utter_i_m_fine
+  - intent: revile
+  - action: utter_revile
+- story: happy path joke
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: name_entry
+  - action: utter_name_entry
+  - intent: jokes
+  - action: utter_happy_joke
+  - intent: affirm
+  - action: utter_happy
+- story: happy path location
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inform_location
+  - action: utter_inform_location
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: happy path services
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inform_services
+  - action: utter_inform_services
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+- story: happy path definition
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inform_definition
+  - action: utter_inform_definition
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: revile
+  - action: utter_revile
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
