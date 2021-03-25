@@ -18,6 +18,7 @@ nlu:
     - goodevening
     - good afternoon
     - howdy
+    - hi sara
 - intent: name_entry
   examples: |
     - my name is [ali](name)
@@ -33,6 +34,7 @@ nlu:
     - call me [wael](name)
     - [ala](name)
     - my name is [salim](name)
+    - yes my name is [salim](name)
 - intent: fine
   examples: |
     - how are you ?
@@ -64,6 +66,7 @@ nlu:
     - tunis !
     - where is tassahil
     - is the center in tunis city
+    - and wher is tsaahil
 - intent: inform_definition
   examples: |
     - what is tassahil
@@ -205,6 +208,8 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - yes of  corse
+    - yes sur
 - intent: deny
   examples: |
     - no
@@ -238,6 +243,7 @@ nlu:
     - better today
     - I'm good
     - I am good
+    - thanks
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -289,6 +295,7 @@ nlu:
     - what about hello world  programme
     - more informations about hello world
     - and what is hello world
+    - what iis helo world programme
 - intent: out_of_scoop
   examples: |
     - I want to order food
