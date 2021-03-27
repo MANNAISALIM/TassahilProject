@@ -311,6 +311,7 @@ nlu:
     - helo world
     - whats is hello world programme
     - what is helo world programme
+    - helo wordl
 - intent: out_of_scoop
   examples: |
     - I want to order food
