@@ -53,8 +53,6 @@ intents:
     use_entities: true
 - webinar_details:
     use_entities: true
-- jobs:
-    use_entities: true
 - fromwekipedia:
     use_entities: true
 - out_of_scoop:
@@ -153,8 +151,6 @@ responses:
   - text: ' Please visit our [website](https://tassahil.com/) to get more  information.'
   utter_webinar_details:
   - text: " This webinar is named  {webinarname},it wil be start on :{webinardate} and it will take {webinarduration}.The webinar will be instructed by {webinarinstructor}.So don't miss this event and here is the link to register {webinarlink}. "
-  utter_jobs:
-  - text: ' With pleasure , the company {company} need a {jobs} . '
   utter_fromwekipedia:
   - text: ' ok ! {helloworld} '
   utter_iamabot:
@@ -200,8 +196,6 @@ actions:
 - action_webinar_cost
 - utter_webinar_details
 - action_webinar_details
-- utter_jobs
-- action_jobs
 - utter_fromwekipedia
 - action_fromwekipedia
 - utter_out_of_scoop

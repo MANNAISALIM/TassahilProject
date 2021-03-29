@@ -21,8 +21,6 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: jobs
-  - action: action_jobs
   - intent: webinar_details
   - action: action_webinar_details
   - intent: webinar_name

@@ -275,18 +275,6 @@ nlu:
     - am I speak to an assistant ?
     - what is your name?
 
-  
-- intent: jobs
-  examples: |
-    - what about jobs in this domain 
-    - jobs 
-    - jobs in the word 
-    - new jobs 
-    - how many jobs 
-    - need job 
-    - i need a job 
-    - opportunity to work 
-    - work
 - intent: fromwekipedia
   examples: |
     - what is hello world programme ?
