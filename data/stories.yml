@@ -1,22 +1,17 @@
 version: "2.0"
-
 stories:
-
 - story: happy path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_great
   - action: utter_happy
-  - intent: fine 
+  - intent: fine
   - action: utter_i_m_fine
   - intent: fromwekipedia
   - action: action_fromwekipedia
   - intent: revile
   - action: utter_revile
-
-
-  
 - story: befor webinar path
   steps:
   - intent: greet
@@ -26,7 +21,7 @@ stories:
   - intent: webinar_name
   - action: action_webinar_name
   - intent: webinar_date
-  - action: action_webinar_date  
+  - action: action_webinar_date
   - intent: webinar_participants
   - action: action_webinar_participants
   - intent: webinar_duration
@@ -45,7 +40,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: fine 
+  - intent: fine
   - action: utter_i_m_fine
   - intent: revile
   - action: utter_revile
@@ -68,7 +63,6 @@ stories:
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_happy
-
 - story: happy path services
   steps:
   - intent: greet
@@ -96,7 +90,6 @@ stories:
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_happy
-
 - story: sad path 2
   steps:
   - intent: greet
@@ -108,3 +101,31 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+- story: Story from Conversation ID 4685732920ca40168cc4423bdca44e61
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - intent: nlu_fallback
+    entities:
+    - name: salim
+  - slot_was_set:
+    - name: salim
+  - action: utter_name_entry
+  - intent: inform_definition
+  - action: utter_inform_definition
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  - intent: inform_location
+  - action: utter_inform_location
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  - intent: fromwekipedia
+  - action: action_fromwekipedia
+  - intent: mood_great
+  - action: utter_happy
