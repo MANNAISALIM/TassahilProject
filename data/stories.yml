@@ -8,8 +8,32 @@ stories:
   - action: utter_happy
   - intent: fine
   - action: utter_i_m_fine
+  - intent: name_entry
+  - action: utter_name_entry
   - intent: fromwekipedia
   - action: action_fromwekipedia
+  - intent: revile
+  - action: utter_revile
+- story: happy path info
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: fine
+  - action: utter_i_m_fine
+  - intent: definition_of_ai_component
+  - action: action_definition_of_ai_component
+  - intent: start_with_ai_component
+  - action:  action_start_with_ai_component
+  - intent: version_of_ai_component
+  - action: action_version_of_ai_component
+  - intent: website_to_ai_component
+  - action: action_website_to_ai_component
+  - intent:  next_step_ai_component
+  - action: action_next_step_ai_component
+  - intent:  architecture_of_ai_component
+  - action: action_architecture_of_ai_component
   - intent: revile
   - action: utter_revile
 - story: befor webinar path
@@ -48,8 +72,6 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: name_entry
-  - action: utter_name_entry
   - intent: jokes
   - action: utter_happy_joke
   - intent: affirm
@@ -60,7 +82,6 @@ stories:
   - action: utter_greet
   - intent: inform_location
   - action: utter_inform_location
-  - action: utter_did_that_help
   - intent: affirm
   - action: utter_happy
 - story: happy path services
@@ -69,7 +90,6 @@ stories:
   - action: utter_greet
   - intent: inform_services
   - action: utter_inform_services
-  - action: utter_did_that_help
   - intent: affirm
   - action: utter_happy
 - story: happy path definition
@@ -78,7 +98,6 @@ stories:
   - action: utter_greet
   - intent: inform_definition
   - action: utter_inform_definition
-  - action: utter_did_that_help
   - intent: affirm
   - action: utter_happy
 - story: sad path 1
@@ -101,31 +120,3 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
-- story: Story from Conversation ID 4685732920ca40168cc4423bdca44e61
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-  - intent: bot_challenge
-  - action: utter_iamabot
-  - intent: nlu_fallback
-    entities:
-    - name: salim
-  - slot_was_set:
-    - name: salim
-  - action: utter_name_entry
-  - intent: inform_definition
-  - action: utter_inform_definition
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-  - intent: inform_location
-  - action: utter_inform_location
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-  - intent: fromwekipedia
-  - action: action_fromwekipedia
-  - intent: mood_great
-  - action: utter_happy

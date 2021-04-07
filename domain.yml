@@ -61,14 +61,33 @@ intents:
     use_entities: true
 - laughing:
     use_entities: true
+- definition_of_ai_component:
+    use_entities: true
+- start_with_ai_component:
+    use_entities: true
+- version_of_ai_component:
+    use_entities: true
+- website_to_ai_component:
+    use_entities: true
+- next_step_ai_component:
+    use_entities: true
+- architecture_of_ai_component:
+    use_entities: true
 entities:
 - name
+- title
 slots:
   name:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
     auto_fill: true
     influence_conversation: true
+  title:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+   
 responses:
   utter_greet:
   - text: Hey ! How are you?
@@ -94,10 +113,9 @@ responses:
   - text: Please, don't say that kind of words again !
   - text: ' Stop saying that please !'
   - text: ' it is not funny !'
-  - text: ' you are bigger then saying this words! so i beg you to stop it '
-  - text: ' Stop it or i will quit this conversation !'
   utter_inform_location:
-  - text: 'You can find tassahil center in this location : 1 Khaled Ibn walid  BP 3000, Sfax, Tunisia .Find us on [google maps] (https://www.google.com/maps/search/1+Khaled+Ibn+walid++BP+3000,+Sfax,+Tunisia+/@34.7614189,10.7381691,13.54z)'
+  - text: 'Our address is : 1 Khaled Ibn walid  BP 3000, Sfax, Tunisia . Find us on [google maps] (https://www.google.com/maps/search/1+Khaled+Ibn+walid++BP+3000,+Sfax,+Tunisia+/@34.7614189,10.7381691,13.54z)'
+  - text: 'This is our address : 1 Khaled Ibn walid  BP 3000, Sfax, Tunisia .Find us on [google maps] (https://www.google.com/maps/search/1+Khaled+Ibn+walid++BP+3000,+Sfax,+Tunisia+/@34.7614189,10.7381691,13.54z)'
   utter_inform_definition:
   - text: 'Tassahil Center for Intelligent Solutions is a service company that was created in July 2020 following a need in Tunisia to bring together Tunisian scientists interested in the field of AI . For more details, here is our [website](https://tassahil.com/) '
   utter_inform_services:
@@ -132,37 +150,69 @@ responses:
   - text: 'see you soon {name} '
   - text: until we meet again
   utter_webinar_name:
-  - text: ' This webinar name is : {webinarname}'
+  - text: ' This webinar is called : {webinarname}'
+  - text: ' {webinarname}'
   utter_webinar_date:
-  - text: ' We will be starting this webinar on :{webinardate}.'
+  - text: ' Our webinar will start on :{webinardate}.'
+  - text: ' it will start on :{webinardate}.'
   utter_webinar_participants:
-  - text: ' So far, the number of participants is  {webinarparticipants}, and it could increase.'
+  - text: ' So far, the number of participants is  {webinarparticipants}, and it could increase'
+  - text: ' There will be {webinarparticipants} participants'
   utter_webinar_duration:
+  - text: ' It is approximately {webinarduration} long .'
   - text: ' The event is expected to take {webinarduration}.'
+  - text: ' It is about  {webinarduration}.'
   utter_webinar_instructor:
-  - text: ' ok then, this webinar will be instructed by {webinarinstructor}.'
+  - text: ' {webinarinstructor} wi be the instructor for this webinar'
+  - text: ' the webinar will be instructed by {webinarinstructor}'
+  - text: ' sure, this webinar will be instructed by {webinarinstructor}'
   utter_webinar_domain:
-  - text: ' This webinar focuses on {webinardomain}.'
+  - text: ' This webinar discusses  {webinardomain} '
+  - text: ' you can watch the webinar to learn more about {webinardomain} '
+  - text: ' This webinar focuses on {webinardomain} ' 
   utter_webinar_content:
-  - text: ' The seminar will include {webinarcontent}.'
+  - text: ' In the webinar, there will be {webinarcontent}'
+  - text: ' The webinar will include {webinarcontent}'
   utter_webinar_registration:
-  - text: ' Here is the link to register {webinarlink}.'
+  - text: ' Here is the link to register {webinarlink}'
+  - text: ' To register, follow this link. {webinarlink}'
   utter_webinar_cost:
   - text: ' Please visit our [website](https://tassahil.com/) to get more  information.'
+  - text: ' Check out our [website](https://tassahil.com/) to find out more information.'
   utter_webinar_details:
   - text: " This webinar is named  {webinarname},it wil be start on :{webinardate} and it will take {webinarduration}.The webinar will be instructed by {webinarinstructor}.So don't miss this event and here is the link to register {webinarlink}. "
+  - text: " {webinarname} wil be start on :{webinardate} so don't miss this event.The webinar will be instructed by {webinarinstructor} and it will take {webinarduration}.To register, please visit the following link {webinarlink}. "
   utter_fromwekipedia:
   - text: ' ok ! {helloworld} '
+  - text: ' Sure ! {helloworld} '
   utter_iamabot:
-  - text: My name is Sara ! and I will be your assistant for this conversation . How can I help you {name} ?
-  - text: I am Sara ! Does that count , I will prove it, ask your question now and be impressed by my fluffy genius :).How can I help you {name} ?
+  - text: My name is Sara . How can I help you {name} ?
+  - text: I'm Sara . How may I assist you {name} ?
   utter_out_of_scoop:
-  - text: Sorry , I didn't get what you said. Please rephrase what you said.
   - text: Sorry, I don't understand you.
   - text: Sorry , I didn't get what you said
+  - text: Sorry , I didn't get what you said. Please rephrase it.
   utter_laughing:
   - text: Hahaha
   - text: hhhhhh
+  - text: :)
+  utter_definition_of_ai_component:
+  - text: 'Sure , {definition}'
+  - text: '{definition}'
+  utter_start_with_ai_component:
+  - text: 'You have To start with {start}'
+  - text: 'To start with {title}, you have to take al look at {start}.'
+  utter_version_of_ai_component:
+  - text: 'I am not sur, you can google it.'
+  utter_website_to_ai_component:
+  - text: 'Here is the website: {website} '
+  - text: 'This is the website you need: {website} '
+  utter_next_step_ai_component:
+  - text: 'the best option is to continue with {next}'
+  - text: 'the best thing to do is to carry on with  {next}'
+  utter_architecture_of_ai_component:
+  - image: ' {image}'
+    text: 'take a look at  this image :' 
 actions:
 - utter_greet
 - utter_i_m_fine
@@ -200,5 +250,18 @@ actions:
 - action_fromwekipedia
 - utter_out_of_scoop
 - utter_laughing
+- utter_definition_of_ai_component
+- action_definition_of_ai_component
+- utter_start_with_ai_component
+- action_start_with_ai_component
+- utter_version_of_ai_component
+- action_version_of_ai_component
+- utter_website_to_ai_component
+- action_website_to_ai_component
+- utter_next_step_ai_component
+- action_next_step_ai_component
+- utter_architecture_of_ai_component
+- action_architecture_of_ai_component
+
 forms: {}
 e2e_actions: []

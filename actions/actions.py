@@ -1,19 +1,12 @@
-# This files contains your custom actions which can be used to run
-# custom Python code.
-#
-# See this guide on how to implement these action:
-# https://rasa.com/docs/rasa/custom-actions
-
-
-# This is a simple example for a custom action which utters "Hello World!"
-
 from typing import Any, Text, Dict, List
-
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from actions.MongoConnect import getWebinarDetailsFromMongo
+from actions.MongoConnect import getAiInfoFromMongo
 from actions.wikiGetter import getFromwikipedia
 
+
+#Actions for webinar details
 class Actionwebinarname(Action):
 
     def name(self) -> Text:
@@ -129,8 +122,9 @@ class Actionwebinardetails(Action):
         webinarlink = (getWebinarDetailsFromMongo()['registraion_link']) 
         dispatcher.utter_message(template="utter_webinar_details", webinarname=webinarname ,webinardate=webinardate , webinarduration=webinarduration, webinarinstructor=webinarinstructor , webinarlink=webinarlink)
         return []
-
+# actions with wekipedia
 class Actionhelloworld(Action):
+
 
     def name(self) -> Text:
         return "action_fromwekipedia"
@@ -138,6 +132,89 @@ class Actionhelloworld(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        helloworld = getFromwikipedia()
+        helloworld = getFromwikipedia("hello world program")
         dispatcher.utter_message(template="utter_fromwekipedia", helloworld=helloworld)
+        return []
+#actions for getting information for AI 
+class ActionAIDefintion(Action):
+
+    def name(self) -> Text:
+        return "action_definition_of_ai_component"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        name = tracker.get_slot("title")
+        Definition = ""
+        try:
+            try: 
+                Definition = (getAiInfoFromMongo(name)['Definition'])    
+            except KeyError:
+                Definition = (getAiInfoFromMongo(name.upper())['Definition'])
+        except KeyError:
+            print("**********wekipedia**************")   
+            print(name)  
+            Definition = getFromwikipedia(name.upper())  
+            print(Definition)
+        except wikipedia.exceptions.PageError:
+            Definition =" actually, i don't know what you mean exactly."   
+        dispatcher.utter_message(template="utter_definition_of_ai_component", definition=Definition)
+        return []
+class ActionAIstart(Action):
+
+    def name(self) -> Text:
+        return "action_start_with_ai_component"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        name = tracker.get_slot("title")
+        start = (getAiInfoFromMongo(name)['HowToStart']) 
+        dispatcher.utter_message(template="utter_start_with_ai_component", start=start)
+        return []
+class ActionAIversion(Action):
+
+    def name(self) -> Text:
+        return "action_version_of_ai_component"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message(template="utter_version_of_ai_component")
+        return []
+class ActionAIwebsite(Action):
+
+    def name(self) -> Text:
+        return "action_website_to_ai_component"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        name = tracker.get_slot("title")
+        website = (getAiInfoFromMongo(name)['WebSite']) 
+        dispatcher.utter_message(template="utter_website_to_ai_component", website=website)
+        return []
+class ActionAInext(Action):
+
+    def name(self) -> Text:
+        return "action_next_step_ai_component"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        name = tracker.get_slot("title")
+        next = (getAiInfoFromMongo(name)['WhatIsTheNext']) 
+        dispatcher.utter_message(template="utter_next_step_ai_component", next=next)
+        return []
+class ActionAIimage(Action):
+
+    def name(self) -> Text:
+        return "action_architecture_of_ai_component"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        name = tracker.get_slot("title")
+        image = (getAiInfoFromMongo(name)['Architucture(Image)']) 
+        dispatcher.utter_message(template="utter_architecture_of_ai_component", image=image)
         return []

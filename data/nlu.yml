@@ -21,8 +21,8 @@ nlu:
     - howdy
 - intent : name_entry
   examples: | 
-    - my name is [ali](name)
-    - I am [hedi](name)
+    - my name is [radhwen](name)
+    - I am [fares](name)
     - name is [kais](name)
     - It is [amer](name)
     - it's [salah](name)
@@ -33,18 +33,59 @@ nlu:
     - i am called [souha](name)
     - call me [wael](name)
     - [ala](name)
-
+    - i m [ahmed](name)
+    - this is [wael](name)
+    - i like calling me[raouf](name) 
+    - I am [nouha](name)
+    - I am [hajer](name)
+    - The name I use is [fathel](name)
+    - This is the name I use [farah](name)
+    - my name is [mustafa](name)
+    - I am [yassin](name)
+    - name is [mohammed amine](name)
+    - It is [amer](name)
+    - it's [abdellatif](name)
+    - i am named [badreddin](name)
+    - my first name is [nidhal](name)
+    - my freinds call me [salah](name)
+    - my family call me [chaker](name)
+    - i am called [ragheb](name)
+    - call me [olfa](name)
+    - [wiem](name)
+    - i m [lotfi](name)
+    - this is [wael](name)
+    - i like calling me[sahar](name) 
+    - I am [fatma](name)
+    - I am [hanène](name)
+    - The name I use is [wissal](name)
+    - This is the name I use [hayfa](name)
+    - This is the name I use [dhia](name)
+    - I am [ons](name)
 - intent : fine
   examples : | 
     - how are you ? 
     - and you !
     - are you ok !
+    - Is everything okay with you?
+    - How is everything with you?
+    - what's up 
+    - do you feel ok?
+    - how do you feel?
+    - Are you alright ?
+    - my dear, how are you? 
 - intent : revile
   examples : |
     - curse
     - damn 
     - shame
     - shit
+    - fuck
+    - This is a joke
+    - It's a mess
+    - What the hell?
+    - What the heck?
+    - What the fuck does that mean?
+    - Goddamn
 
 - intent : jokes
   examples: |
@@ -56,38 +97,67 @@ nlu:
     - not funny 
     - I want to  laugh
     - make me laugh
+    - I want to hear a joke.
+    - A joke would be nice.
+    - It would be enjoyable to hear a joke.
+    - what jokes are there? 
+    - can you tell me a joke!
+    - I want a joke
+    - it is not funny
 - intent : inform_location
   examples: |
-    - where is tassahil center
+    - and where is tassahil center?
     - tassahil location!
-    - how can'I find tassahil center
+    - how can'I find tassahil center?
     - is tassahil in sfax 
     - tunis !
     - where is tassahil
     - is the center in tunis city
+    - location of tassahil
+    - The location of the Tassahil center
+    - what is the way  to tassahil
+    - is your location is close 
+    - you're not too far from me!
+    - how can i find your location
+    - Where are you located ?
+    - can you give me your address
+    - i need your address
+    - give me your address location
 - intent : inform_definition
   examples: |
-    - what is tassahil
-    - presentation
+    - what is tassahil?
+    - present me tassahil 
     - what is Tassahil Center for Intelligent Solutions?
-    - can you define tassahil 
-    - tell me more about tassahil
-    - present me tassahil
+    - can you define me what is tassahil 
+    - tell me more about tassahil center
     - can you tell me what is tassahil center!
     - I need informations about Tassahil Center for Intelligent Solutions!
     - I need more informations about tassahil center!
     - I don't know tassahil center
+    - present me your company 
+    - tell me more about your company 
+    - I have to know what is tassahil center 
+    - I would like to know more about your company. 
+    - Your company interests me. 
+    - My interest in your company is strong. 
+    - please tell me about your company. 
+    - What can you tell me about your company? 
 - intent : inform_services
   examples: |
     - what is your services ?
     - tassahil services
     - tassahil business
-    - what is your domain   !
+    - what is your domain!
     - services ?
-    - any inforamtion about tassahil services!
-    - what about services 
+    - any information about tassahil services! 
     - how many sevices 
     - services provides 
+    - what services do you provide ?
+    - what about services
+    - What kind of services do you provide ?
+    - what kind of services do you offer?
+    - what kind of services tassahil offer?
+    - Any info about Tassahil's services? 
 - intent : webinar_name
   examples: |
     - what is the topic of the webinar ?
@@ -102,17 +172,28 @@ nlu:
     - what is the name of the webinar 
     - what is the topic of the presentation
     - what will be the topic of the online seminar 
+    - the webinar topic is?
+    - what about the webinar
+    - what about the upcoming webinar
+    - upcoming webinar 
+    - and what the next webinar will be about
+    - can' i ask you what the next webinar will cover
 - intent : webinar_date
   examples: |
-    - when the webinar will begin ?
+    - whene the webinar will begin ?
     - time of the webinar 
-    - time    
+    - the exact time  of the webinar  
     - what is the date
     - when will the webinar start 
     - when does the webinar start
     - Is this webinar scheduled for today? 
     - Does this webinar have a date for today?
     - the webinar's time  
+    - the webinar will start on !
+    - is it in this month !
+    - is the webinar in these days 
+    - Is there a webinar today? 
+    - exactly when it will take place.
 - intent : webinar_participants
   examples: |
     - how many participants in the webinar ?
@@ -124,12 +205,32 @@ nlu:
     - Estimated number of attendees
     - how many people will participate 
     - how many person will participate in this webinar
+    - how many person there
+    - is there is many person 
+    - a lot of people there!
+    - how many boys?
+    - how many girls?
+    - how many women?
+    - how many men will be there ?
+    - Is this for the general public?
+    - is the webinar for public!
+
 - intent : webinar_duration
   examples: |
     - how long the webinar will take  ?
     - the length of the webinar
     - what the webinar's duration will be
     - what the webinar's length will be
+    - how many hours the event will dure
+    - how long the event will last
+    - number of hours!
+    - is it a short webinar
+    - is it a long webinar! 
+    - is it durable
+    - is the webinar long
+    - how many hours the webinar will take 
+    - how many hours to finish
+
 - intent : webinar_instructor
   examples: |
     - who is the instructor ?
@@ -140,21 +241,41 @@ nlu:
     - instructor name please 
     - instructor
     - webinar presenter 
+    - What is the name of the instructor?
+    - and how is the presenter
+    - and how is the instructor
+    - and what about the instructor
+    - does the webinar will be instructed by 
 - intent : webinar_domain
   examples: |
     - what is the webinar domain ?
     - what we will talk about in this webinar
     - the domain of the webinar
     - in which domain the webinar will go deeper
-    - What domains will be covered by the webinar?
+    - What domain will be covered by the webinar?
     - which domain the webinar will go into depth
+    - in which domain we will dig deep
+    - which domain we will explore in depth
+    - in what domain we will be  assisted
+    - in what domain are we to receive assistance
+    - In what domains will the webinar be held?
+    - what domain we will discover in this webinar
+    - is it for IOT or AI or something else!
+    - what about the domain!
 - intent : webinar_content
   examples: |
     - the content of the webinar 
     - what is the content of the webinar?
     - how will the webinar be structured? 
+    - a description of the webinar’s content. 
     - how will the webinar be organized? 
     - What will the webinar consist of? 
+    - is it a workshop
+    - is it a presentation
+    - is it practical or theoretical
+    - what does it mean to be practically minded or theoretically minded
+    - is the webinar will be a workshop or a presentation
+    - any resources are required !
 - intent : webinar_registration
   examples: |
     - can you send me the link of registration
@@ -165,30 +286,53 @@ nlu:
     - what is the registration process?
     - i want to be present in this webinar 
     - I would like to attend the webinar
+    - yes , i will participate
+    - I will participate in the webinar.
+    - i like the event
+    - how can i apply for this webinar
+    - What are the requirements to participate in this webinar?
+    - How do I register for this webinar?
+    - registering link please !
+    - link to register please !
+    - link  to register
 - intent : webinar_cost
   examples: |
-    - how much it cost ?
+    - How much will it cost?
     - how much did it cost?
-    - the price of the webinar
+    - the cost of the webinar
+    - In what range did it cost?
     - Approximately how much did it cost?
     - Was it a lot or a little?
-    - Please let me know the price. 
-    - The price was not displayed. 
-    - what about the price !
-    - price please 
+    - Please let me know the cost. 
+    - The cost was not displayed. 
+    - what about the cost !
+    - what's the cost ?
+    - cost please 
+    - is it expensive
+    - does it cost a lot?
+    - what about cost
+    - what about money
+    - what about  the cost of the webinar
 - intent : webinar_details
   examples: |
     - tell me about the webinar
     - webinar 
     - webinar details
-    - waht about the next webinar
     - next webinar
     - tell me more about the webinar
     - webinar briefly 
+    - what about the next webinar
+    - Briefly, we attended a webinar on 
+    - Briefly, the webinar will be 
+    - more information about the webinar
+    - the next event will be 
+    - what about the next webinar
+    - what about the upcoming webinar
+    - What do you think of the upcoming webinar?
 - intent: goodbye
   examples: |
     - good afternoon
-    - cu
+    - au revoir
     - good by
     - cee you later
     - good night
@@ -198,6 +342,13 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - Thank you for your time. 
+    - I appreciate your time. 
+    - really appreciate that 
+    - thank you for this informations
+    - This information is very helpful, thank you.
+    - thank you
+    - thanks
 
 - intent: affirm
   examples: |
@@ -207,6 +358,20 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - sure 
+    - right
+    - that's right
+    - hmmm
+    - yep
+    - yeh
+    - ye
+    - so
+    - Yes, absolutely
+    - absolutely
+    - Yes, definitely
+    - all right
+    - that's fine
+    - all right then
 
 - intent: deny
   examples: |
@@ -217,11 +382,20 @@ nlu:
     - don't like that
     - no way
     - not really
+    - nop
+    - maybe
+    - none
+    - emmm
+    - not sure 
+    - In my opinion, no.
+    - i m not agree with you
+
 
 - intent: mood_great
   examples: |
     - perfect
     - great
+    - ok then         
     - amazing
     - feeling like a king
     - wonderful
@@ -259,7 +433,14 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
+    - i m not ok
+    - i m not fine
+    - help me 
+    - make me feel ok
+    - i m so sad
+    - it is been a long day 
+    - I have been working all day. 
+    - i don't feel right
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -274,7 +455,10 @@ nlu:
     - am I speak to a bot?
     - am I speak to an assistant ?
     - what is your name?
-
+    - are you sara !
+    - are you real !
+    - what is your name
+    
 - intent: fromwekipedia
   examples: |
     - what is hello world programme ?
@@ -289,6 +473,8 @@ nlu:
     - I want to order food
     - what is 2 + 2
     - who is the us president ?
+    - football
+    - last serie
 - intent : laughing
   examples: |
     - hhhhhh
@@ -296,5 +482,76 @@ nlu:
     - HahahaHahahahaha
     - Hihihi
     - hhhhhhhhhhhhhh
+    - hh
+    - :)
 
+- intent : definition_of_ai_component
+  examples: |
+    - tell me what is [Artificial Intelligence](title)
+    - what is [AI](title)
+    - what is [nlu](title)
+    - define me [core] (title)
+    - what is [Machine learning](title)
+    - what is [entities](title)
+    - what is [intents](title)
+    - what is  [nlu](title)
+    - tell me what is [Artificial neural network](title)
+    - what is [ANN](title)
+    - what is [Chatbots](title)
+    - define me [Classification] (title)
+    - define me [Cluster analysis] (title)
+    - what is [Clustering](title)
+    - what is [Cognitive computing](title)
+    - what is [Convolutional neural network](title)
+    - what is  [CNN](title)
+    - tell me what is [Data mining](title)
+    - what is [Data science](title)
+    - what is [Decision tree](title)
+    - define me [Deep learning] (title)
+    - define me [Fluent] (title)
+    - what is [Game AI](title)
+    - what is [Genetic algorithm](title)
+    - what is [Heuristic search techniques](title)
+    - what is  [Knowledge engineering](title)
+    - tell me what is [Logic programming](title)
+    - what is [Machine intelligence](title)
+    - what is [Machine learning](title)
+    - define me [Machine perception] (title)
+    - define me [Natural  language  processing] (title)
+    - what is [Recurrent neural network](title)
+    - what is [RNN](title)
+    - what is [Supervised learning](title)
+    - what is  [Swarm behavior](title)
+    - what is  [Unsupervised learning](title)
 
+- intent : start_with_ai_component
+  examples: |
+    - how can i start with [nlu](title)
+    - starting point of [nlp](title)
+    - from where should'i get start [ML](title)
+- intent : version_of_ai_component
+  examples: |
+    - what is the current version of [nlu](title)
+    - last version of  [data science](title)
+    - the version of  [nlp](title)
+    - and the version [ML](title)
+
+- intent : website_to_ai_component
+  examples: |
+    - and the website of [nlu](title)
+    - need more info on  [nlp](title)
+    - official website of  [ML](title)
+    - what about the website of [AI](title)
+    - link to  [data science](title) website
+- intent : next_step_ai_component
+  examples: |
+    - next step after [nlu](title)
+    - after  [nlp](title)
+    - once it done with [ML](title) , what should i do 
+    - what do you propose after [AI](title)
+- intent : architecture_of_ai_component
+  examples: |
+    - any images for  [nlu](title) explication
+    - simple definition of  [nlp](title)
+    - what is the architecture of [ML](title)
+    - an image for  [AI](title)

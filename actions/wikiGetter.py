@@ -1,11 +1,11 @@
 import wikipedia
 
 
-#print (wikipedia.search("intelligence artificiel"))
-#print (wikipedia.page("programming").url)
-def getFromwikipedia():  
+#wikipedia.summary(wikipedia.search(title , results=1),sentences=2)
+#wikipedia.page(wikipedia.search(title , results=1)).content
+def getFromwikipedia(title):  
     try:
-        res = wikipedia.summary("hello world" ,sentences=2) 
+        res = wikipedia.summary(wikipedia.search(wikipedia.page(title).title , results=1),sentences=2)
     except wikipedia.exceptions.DisambiguationError as e:
         res = e 
     
