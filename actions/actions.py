@@ -148,14 +148,15 @@ class ActionAIDefintion(Action):
         Definition = ""
         try:
             try: 
-                Definition = (getAiInfoFromMongo(name)['Definition'])    
+                try:
+                    Definition = (getAiInfoFromMongo(name.lower())['Definition']) 
+                except KeyError:
+                    Definition = (getAiInfoFromMongo(name.capitalize())['Definition'])
             except KeyError:
                 Definition = (getAiInfoFromMongo(name.upper())['Definition'])
         except KeyError:
-            print("**********wekipedia**************")   
-            print(name)  
-            Definition = getFromwikipedia(name.upper())  
-            print(Definition)
+            print("********** From wekipedia **************")   
+            Definition = getFromwikipedia(name.lower())  
         except wikipedia.exceptions.PageError:
             Definition =" actually, i don't know what you mean exactly."   
         dispatcher.utter_message(template="utter_definition_of_ai_component", definition=Definition)
@@ -169,7 +170,14 @@ class ActionAIstart(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         name = tracker.get_slot("title")
-        start = (getAiInfoFromMongo(name)['HowToStart']) 
+        start = ""
+        try:
+            try: 
+                start = (getAiInfoFromMongo(name.lower())['HowToStart']) 
+            except KeyError:
+                start = (getAiInfoFromMongo(name.capitalize())['HowToStart'])
+        except KeyError:
+                start = (getAiInfoFromMongo(name.upper())['HowToStart'])
         dispatcher.utter_message(template="utter_start_with_ai_component", start=start)
         return []
 class ActionAIversion(Action):
@@ -191,7 +199,14 @@ class ActionAIwebsite(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         name = tracker.get_slot("title")
-        website = (getAiInfoFromMongo(name)['WebSite']) 
+        website = ""
+        try:
+            try: 
+                website = (getAiInfoFromMongo(name.lower())['WebSite']) 
+            except KeyError:
+                website = (getAiInfoFromMongo(name.capitalize())['WebSite'])
+        except KeyError:
+                website = (getAiInfoFromMongo(name.upper())['WebSite'])
         dispatcher.utter_message(template="utter_website_to_ai_component", website=website)
         return []
 class ActionAInext(Action):
@@ -203,7 +218,14 @@ class ActionAInext(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         name = tracker.get_slot("title")
-        next = (getAiInfoFromMongo(name)['WhatIsTheNext']) 
+        next = ""
+        try:
+            try: 
+                next = (getAiInfoFromMongo(name.lower())['WhatIsTheNext']) 
+            except KeyError:
+                next = (getAiInfoFromMongo(name.capitalize())['WhatIsTheNext'])
+        except KeyError:
+                next = (getAiInfoFromMongo(name.upper())['WhatIsTheNext'])
         dispatcher.utter_message(template="utter_next_step_ai_component", next=next)
         return []
 class ActionAIimage(Action):
@@ -215,6 +237,13 @@ class ActionAIimage(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         name = tracker.get_slot("title")
-        image = (getAiInfoFromMongo(name)['Architucture(Image)']) 
+        image = ""
+        try:
+            try: 
+                image = (getAiInfoFromMongo(name.lower())['Architucture(Image)']) 
+            except KeyError:
+                image = (getAiInfoFromMongo(name.capitalize())['Architucture(Image)'])
+        except KeyError:
+                image = (getAiInfoFromMongo(name.upper())['Architucture(Image)'])
         dispatcher.utter_message(template="utter_architecture_of_ai_component", image=image)
         return []

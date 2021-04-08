@@ -20,3 +20,13 @@ rules:
   steps:
   - intent: laughing
   - action: utter_laughing
+
+- rule: impressed
+  steps:
+  - intent: impressed_by_AI
+  - action: utter_impressed_by_AI
+
+- rule: language
+  steps:
+  - intent: chat_language
+  - action: utter_chat_language

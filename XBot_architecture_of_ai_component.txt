@@ -1,0 +1,264 @@
+﻿    - any images for [Machine learning](title) explication
+    - simple definition of [Supervised learning](title)
+    - what is the architecture of [Semisupervised learning](title)
+    - It is not clear about [Unsupervised learning](title)
+    - Can you send me an image for [Reinforcement learning](title)
+    - a picture would help me understand better [Algorithms machine learning](title)
+    - more explanation about [Linear Regression](title) please
+    - ok, tell me more about [Logistic Regression](title) please
+    - any images for [Decision Tree](title) explication
+    - simple definition of [ Support Vector Machine](title)
+    - what is the architecture of [Naive Bayes](title)
+    - It is not clear about [kNN (k- Nearest Neighbors)](title)
+    - Can you send me an image for [K-Means](title)
+    - a picture would help me understand better [Random Forest](title)
+    - more explanation about [Dimensionality Reduction ](title) please
+    - ok, tell me more about [Principal component analysis ](title) please
+    - any images for [NLP](title) explication
+    - simple definition of [deep learning](title)
+    - what is the architecture of [Convolutional neural network](title)
+    - It is not clear about [Input layer](title)
+    - Can you send me an image for [Hidden Layer](title)
+    - a picture would help me understand better [output layer](title)
+    - more explanation about [ PCA](title) please
+    - ok, tell me more about [SVM](title) please
+    - any images for [CNN](title) explication
+    - simple definition of [LSMN](title)
+    - what is the architecture of [NLTK](title)
+    - It is not clear about [spaCy](title)
+    - Can you send me an image for [tokenization nlp](title)
+    - a picture would help me understand better [stemming NLP](title)
+    - more explanation about [lemmatization NLP](title) please
+    - ok, tell me more about [text vectorization](title) please
+    - any images for [Binary Term Frequency](title) explication
+    - simple definition of [Bag of Words ](title)
+    - what is the architecture of [BoW](title)
+    - It is not clear about [normalized tf-idf](title)
+    - Can you send me an image for [Word2Vec](title)
+    - a picture would help me understand better [Continuous Bag of Words](title)
+    - more explanation about [CBOW](title) please
+    - ok, tell me more about [Skip-Gram ](title) please
+    - any images for [SG](title) explication
+    - simple definition of [cosine similarity](title)
+    - what is the architecture of [soft cosine similarity](title)
+    - It is not clear about [speech to text](title)
+    - Can you send me an image for [STT](title)
+    - a picture would help me understand better [Speech recognition](title)
+    - more explanation about [text to speech](title) please
+    - ok, tell me more about [TTS](title) please
+    - any images for [librosa](title) explication
+    - simple definition of [mfcc](title)
+    - what is the architecture of [Mel Frequency Cepstral Coefficient ](title)
+    - It is not clear about [OCR](title)
+    - Can you send me an image for [pytesseract](title)
+    - a picture would help me understand better [Deep Speech](title)
+    - more explanation about [Batch size](title) please
+    - ok, tell me more about [epoch deep learning](title) please
+    - any images for [summary deep learning](title) explication
+    - simple definition of [Model fitting](title)
+    - what is the architecture of [model accuracy.](title)
+    - It is not clear about [confusion matrix](title)
+    - Can you send me an image for [Correlation matrix](title)
+    - a picture would help me understand better [Precision](title)
+    - more explanation about [Recall](title) please
+    - ok, tell me more about [F1 score](title) please
+    - any images for [accuracy](title) explication
+    - simple definition of [vgg16](title)
+    - what is the architecture of [ImageNet](title)
+    - It is not clear about [wordnet](title)
+    - Can you send me an image for [mobilenetv2](title)
+    - a picture would help me understand better [ResNet](title)
+    - more explanation about [Inception V3](title) please
+    - ok, tell me more about [Xception](title) please
+    - any images for [jaccard similarity](title) explication
+    - simple definition of [stopwords](title)
+    - what is the architecture of [Jaccard distance](title)
+    - It is not clear about [clustering](title)
+    - Can you send me an image for [topic modeling](title)
+    - a picture would help me understand better [LDA](title)
+    - more explanation about [image captioning](title) please
+    - ok, tell me more about [A/B Testing](title) please
+    - any images for [Activation Function](title) explication
+    - simple definition of [Active Learning](title)
+    - what is the architecture of [Algorithm](title)
+    - It is not clear about [Annotation](title)
+    - Can you send me an image for [Area Under the Curve ](title)
+    - a picture would help me understand better [Artificial Intelligence](title)
+    - more explanation about [Artificial Neural Networks](title) please
+    - ok, tell me more about [Association Rule Learning](title) please
+    - any images for [Autoencoder](title) explication
+    - simple definition of [Automated Speech Recognition](title)
+    - what is the architecture of [Batch](title)
+    - It is not clear about [Bayes’s Theorem](title)
+    - Can you send me an image for [Bias](title)
+    - a picture would help me understand better [Boosting](title)
+    - more explanation about [Chatbot](title) please
+    - ok, tell me more about [Classification](title) please
+    - any images for [Clustering](title) explication
+    - simple definition of [Computer Vision](title)
+    - what is the architecture of [Confidence Interval](title)
+    - It is not clear about [Convolutional Neural Network](title)
+    - Can you send me an image for [Cross-Validation](title)
+    - a picture would help me understand better [Data](title)
+    - more explanation about [Structured Data](title) please
+    - ok, tell me more about [Unstructured Data](title) please
+    - any images for [Data augmentation](title) explication
+    - simple definition of [CNN](title)
+    - what is the architecture of [CV](title)
+    - It is not clear about [AI](title)
+    - Can you send me an image for [ANN](title)
+    - a picture would help me understand better [Decision Tree](title)
+    - more explanation about [DT](title) please
+    - ok, tell me more about [Deep Blue](title) please
+    - any images for [Deep Learning](title) explication
+    - simple definition of [DL](title)
+    - what is the architecture of [Deep Reinforcement Learning](title)
+    - It is not clear about [Embedding](title)
+    - Can you send me an image for [Word Embedding](title)
+    - a picture would help me understand better [Ensemble Methods](title)
+    - more explanation about [Entropy](title) please
+    - ok, tell me more about [Epoch](title) please
+    - any images for [Feature](title) explication
+    - simple definition of [Feature Selection](title)
+    - what is the architecture of [Feature Learning](title)
+    - It is not clear about [False Positive](title)
+    - Can you send me an image for [False Negative](title)
+    - a picture would help me understand better [Feed-Forward Networks](title)
+    - more explanation about [Feed-Forward ](title) please
+    - ok, tell me more about [Feed-Forward  Neural Networks](title) please
+    - any images for [F-Score](title) explication
+    - simple definition of [Garbage In](title)
+    - what is the architecture of [Garbage Out](title)
+    - It is not clear about [Garbage In and  Garbage Out](title)
+    - Can you send me an image for [GIGO](title)
+    - a picture would help me understand better [General Data Protection Regulation ](title)
+    - more explanation about [GDPR](title) please
+    - ok, tell me more about [Genetic Algorithm](title) please
+    - any images for [Generative Adversarial Networks](title) explication
+    - simple definition of [GANs](title)
+    - what is the architecture of [GAN](title)
+    - It is not clear about [Graphic Processing Unit](title)
+    - Can you send me an image for [GPU](title)
+    - a picture would help me understand better [Human in the Loop](title)
+    - more explanation about [Human-in-the-Loop](title) please
+    - ok, tell me more about [HITL](title) please
+    - any images for [Hyperparameter](title) explication
+    - simple definition of [Hyperparameter Tuning](title)
+    - what is the architecture of [HT](title)
+    - It is not clear about [Image Recognition](title)
+    - Can you send me an image for [IR](title)
+    - a picture would help me understand better [Inference](title)
+    - more explanation about [Information Retrieval](title) please
+    - ok, tell me more about [IR](title) please
+    - any images for [Layer](title) explication
+    - simple definition of [Hidden Layer](title)
+    - what is the architecture of [Hidden Layers](title)
+    - It is not clear about [Learning Rate](title)
+    - Can you send me an image for [ Machine Learning](title)
+    - a picture would help me understand better [ML](title)
+    - more explanation about [Model](title) please
+    - ok, tell me more about [Monte Carlo](title) please
+    - any images for [Multi-Modal Learning](title) explication
+    - simple definition of [Multi-Task Learning](title)
+    - what is the architecture of [Naive Bayes](title)
+    - It is not clear about [Named Entity Recognition](title)
+    - Can you send me an image for [NER](title)
+    - a picture would help me understand better [Natural Language Processing](title)
+    - more explanation about [NLP](title) please
+    - ok, tell me more about [Neural Networks](title) please
+    - any images for [NN](title) explication
+    - simple definition of [Neuron](title)
+    - what is the architecture of [Node](title)
+    - It is not clear about [Optical Character Recognition](title)
+    - Can you send me an image for [OCR](title)
+    - a picture would help me understand better [Optimization](title)
+    - more explanation about [Overfitting](title) please
+    - ok, tell me more about [Underfitting](title) please
+    - any images for [Pooling ](title) explication
+    - simple definition of [Max Pooling](title)
+    - what is the architecture of [Precision](title)
+    - It is not clear about [Prediction](title)
+    - Can you send me an image for [Preprocessing](title)
+    - a picture would help me understand better [Pre-trained Model](title)
+    - more explanation about [Principal Component Analysis](title) please
+    - ok, tell me more about [PCA](title) please
+    - any images for [Random Forest](title) explication
+    - simple definition of [RF](title)
+    - what is the architecture of [Recurrent Neural Networks](title)
+    - It is not clear about [RNN](title)
+    - Can you send me an image for [Regression](title)
+    - a picture would help me understand better [Linear Regression](title)
+    - more explanation about [Logistic Regression](title) please
+    - ok, tell me more about [Regressor](title) please
+    - any images for [Regularization](title) explication
+    - simple definition of [Reinforcement Learning](title)
+    - what is the architecture of [RL](title)
+    - It is not clear about [Restricted Boltzmann Machines](title)
+    - Can you send me an image for [RBM](title)
+    - a picture would help me understand better [Semi-Supervised Learning](title)
+    - more explanation about [Speech Recognition](title) please
+    - ok, tell me more about [SR](title) please
+    - any images for [Supervised Learning](title) explication
+    - simple definition of [SL](title)
+    - what is the architecture of [TensorFlow](title)
+    - It is not clear about [Time Series ](title)
+    - Can you send me an image for [Time Series Data](title)
+    - a picture would help me understand better [Testing ](title)
+    - more explanation about [Testing Data](title) please
+    - ok, tell me more about [Training Data](title) please
+    - any images for [Transfer Learning](title) explication
+    - simple definition of [Unsupervised Learning](title)
+    - what is the architecture of [UL](title)
+    - It is not clear about [Validation](title)
+    - Can you send me an image for [Variance](title)
+    - a picture would help me understand better [keras](title)
+    - more explanation about [OpenCv](title) please
+    - ok, tell me more about [Yolo](title) please
+    - any images for [social distancing](title) explication
+    - simple definition of [Flask](title)
+    - what is the architecture of [python](title)
+    - It is not clear about [deep learning](title)
+    - Can you send me an image for [keras](title)
+    - a picture would help me understand better [tensorflow](title)
+    - more explanation about [OpenCv](title) please
+    - ok, tell me more about [Yolo](title) please
+    - any images for [Mobile Net model](title) explication
+    - simple definition of [Mask detection](title)
+    - what is the architecture of [face recognition & Mask detection ](title)
+    - It is not clear about [social distancing](title)
+    - Can you send me an image for [Flask](title)
+    - a picture would help me understand better [NLU](title)
+    - more explanation about [Matplotib](title) please
+    - ok, tell me more about [Selenuim](title) please
+    - any images for [Web driver](title) explication
+    - simple definition of [Os](title)
+    - what is the architecture of [Wget](title)
+    - It is not clear about [Pickle ](title)
+    - Can you send me an image for [Keras](title)
+    - a picture would help me understand better [Numpy](title)
+    - more explanation about [Tensrflow](title) please
+    - ok, tell me more about [Pandas](title) please
+    - any images for [Nltk](title) explication
+    - simple definition of [GDCM](title)
+    - what is the architecture of [NLU](title)
+    - It is not clear about [anaconda](title)
+    - Can you send me an image for [opencv](title)
+    - a picture would help me understand better [tensorflow](title)
+    - more explanation about [keras](title) please
+    - ok, tell me more about [scikit-learn](title) please
+    - any images for [matplotlib](title) explication
+    - simple definition of [dlib](title)
+    - what is the architecture of [numpy](title)
+    - It is not clear about [Accuracy](title)
+    - Can you send me an image for [confusion matrix](title)
+    - a picture would help me understand better [NLU](title)
+    - more explanation about [tensorflow](title) please
+    - ok, tell me more about [keras](title) please
+    - any images for [imutils](title) explication
+    - simple definition of [numpy](title)
+    - what is the architecture of [opencv](title)
+    - It is not clear about [matplotlib](title)
+    - Can you send me an image for [scipy](title)
+    - a picture would help me understand better [yolo](title)
+    - more explanation about [pygame](title) please
+    - ok, tell me more about [python](title) please

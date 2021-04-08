@@ -13,10 +13,10 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 100
+    epochs: 400
   - name: EntitySynonymMapper
   - name: ResponseSelector
-    epochs: 100
+    epochs: 400
   - name: FallbackClassifier
     threshold: 0.4
     ambiguity_threshold: 0.1
@@ -30,8 +30,8 @@ policies:
 # # See https://rasa.com/docs/rasa/policies for more information.
   - name: MemoizationPolicy
   - name: TEDPolicy
-    max_history: 10
-    epochs: 200
+    max_history: 20
+    epochs: 400
   - name: RulePolicy
 
 

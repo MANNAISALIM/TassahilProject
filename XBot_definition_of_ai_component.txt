@@ -1,0 +1,264 @@
+﻿    - what is [Machine learning](title) ?
+    - tell me what is [Supervised learning](title)?
+    - i don't understand [Semisupervised learning](title)
+    - can you tell me what is  [Unsupervised learning](title)?
+    - can i ask you, what is [Reinforcement learning](title)?
+    - and what is [Algorithms machine learning](title)?
+    - tell me more about [Linear Regression](title)
+    - my question is . What is [Logistic Regression](title)!
+    - I would like to know [Decision Tree](title)!
+    - what is the abbreviation for [ Support Vector Machine](title)?
+    - the abbreviation of [Naive Bayes](title)?
+    - what is [kNN (k- Nearest Neighbors)](title) ?
+    - tell me what is [K-Means](title)?
+    - i don't understand [Random Forest](title)
+    - can you tell me what is  [Dimensionality Reduction ](title)?
+    - can i ask you, what is [Principal component analysis ](title)?
+    - and what is [NLP](title)?
+    - tell me more about [deep learning](title)
+    - my question is . What is [Convolutional neural network](title)!
+    - I would like to know [Input layer](title)!
+    - what is the abbreviation for [Hidden Layer](title)?
+    - the abbreviation of [output layer](title)?
+    - what is [ PCA](title) ?
+    - tell me what is [SVM](title)?
+    - i don't understand [CNN](title)
+    - can you tell me what is  [LSMN](title)?
+    - can i ask you, what is [NLTK](title)?
+    - and what is [spaCy](title)?
+    - tell me more about [tokenization nlp](title)
+    - my question is . What is [stemming NLP](title)!
+    - I would like to know [lemmatization NLP](title)!
+    - what is the abbreviation for [text vectorization](title)?
+    - the abbreviation of [Binary Term Frequency](title)?
+    - what is [Bag of Words ](title) ?
+    - tell me what is [BoW](title)?
+    - i don't understand [normalized tf-idf](title)
+    - can you tell me what is  [Word2Vec](title)?
+    - can i ask you, what is [Continuous Bag of Words](title)?
+    - and what is [CBOW](title)?
+    - tell me more about [Skip-Gram ](title)
+    - my question is . What is [SG](title)!
+    - I would like to know [cosine similarity](title)!
+    - what is the abbreviation for [soft cosine similarity](title)?
+    - the abbreviation of [speech to text](title)?
+    - what is [STT](title) ?
+    - tell me what is [Speech recognition](title)?
+    - i don't understand [text to speech](title)
+    - can you tell me what is  [TTS](title)?
+    - can i ask you, what is [librosa](title)?
+    - and what is [mfcc](title)?
+    - tell me more about [Mel Frequency Cepstral Coefficient ](title)
+    - my question is . What is [OCR](title)!
+    - I would like to know [pytesseract](title)!
+    - what is the abbreviation for [Deep Speech](title)?
+    - the abbreviation of [Batch size](title)?
+    - what is [epoch deep learning](title) ?
+    - tell me what is [summary deep learning](title)?
+    - i don't understand [Model fitting](title)
+    - can you tell me what is  [model accuracy.](title)?
+    - can i ask you, what is [confusion matrix](title)?
+    - and what is [Correlation matrix](title)?
+    - tell me more about [Precision](title)
+    - my question is . What is [Recall](title)!
+    - I would like to know [F1 score](title)!
+    - what is the abbreviation for [accuracy](title)?
+    - the abbreviation of [vgg16](title)?
+    - what is [ImageNet](title) ?
+    - tell me what is [wordnet](title)?
+    - i don't understand [mobilenetv2](title)
+    - can you tell me what is  [ResNet](title)?
+    - can i ask you, what is [Inception V3](title)?
+    - and what is [Xception](title)?
+    - tell me more about [jaccard similarity](title)
+    - my question is . What is [stopwords](title)!
+    - I would like to know [Jaccard distance](title)!
+    - what is the abbreviation for [clustering](title)?
+    - the abbreviation of [topic modeling](title)?
+    - what is [LDA](title) ?
+    - tell me what is [image captioning](title)?
+    - i don't understand [A/B Testing](title)
+    - can you tell me what is  [Activation Function](title)?
+    - can i ask you, what is [Active Learning](title)?
+    - and what is [Algorithm](title)?
+    - tell me more about [Annotation](title)
+    - my question is . What is [Area Under the Curve ](title)!
+    - I would like to know [Artificial Intelligence](title)!
+    - what is the abbreviation for [Artificial Neural Networks](title)?
+    - the abbreviation of [Association Rule Learning](title)?
+    - what is [Autoencoder](title) ?
+    - tell me what is [Automated Speech Recognition](title)?
+    - i don't understand [Batch](title)
+    - can you tell me what is  [Bayes’s Theorem](title)?
+    - can i ask you, what is [Bias](title)?
+    - and what is [Boosting](title)?
+    - tell me more about [Chatbot](title)
+    - my question is . What is [Classification](title)!
+    - I would like to know [Clustering](title)!
+    - what is the abbreviation for [Computer Vision](title)?
+    - the abbreviation of [Confidence Interval](title)?
+    - what is [Convolutional Neural Network](title) ?
+    - tell me what is [Cross-Validation](title)?
+    - i don't understand [Data](title)
+    - can you tell me what is  [Structured Data](title)?
+    - can i ask you, what is [Unstructured Data](title)?
+    - and what is [Data augmentation](title)?
+    - tell me more about [CNN](title)
+    - my question is . What is [CV](title)!
+    - I would like to know [AI](title)!
+    - what is the abbreviation for [ANN](title)?
+    - the abbreviation of [Decision Tree](title)?
+    - what is [DT](title) ?
+    - tell me what is [Deep Blue](title)?
+    - i don't understand [Deep Learning](title)
+    - can you tell me what is  [DL](title)?
+    - can i ask you, what is [Deep Reinforcement Learning](title)?
+    - and what is [Embedding](title)?
+    - tell me more about [Word Embedding](title)
+    - my question is . What is [Ensemble Methods](title)!
+    - I would like to know [Entropy](title)!
+    - what is the abbreviation for [Epoch](title)?
+    - the abbreviation of [Feature](title)?
+    - what is [Feature Selection](title) ?
+    - tell me what is [Feature Learning](title)?
+    - i don't understand [False Positive](title)
+    - can you tell me what is  [False Negative](title)?
+    - can i ask you, what is [Feed-Forward Networks](title)?
+    - and what is [Feed-Forward ](title)?
+    - tell me more about [Feed-Forward  Neural Networks](title)
+    - my question is . What is [F-Score](title)!
+    - I would like to know [Garbage In](title)!
+    - what is the abbreviation for [Garbage Out](title)?
+    - the abbreviation of [Garbage In and  Garbage Out](title)?
+    - what is [GIGO](title) ?
+    - tell me what is [General Data Protection Regulation ](title)?
+    - i don't understand [GDPR](title)
+    - can you tell me what is  [Genetic Algorithm](title)?
+    - can i ask you, what is [Generative Adversarial Networks](title)?
+    - and what is [GANs](title)?
+    - tell me more about [GAN](title)
+    - my question is . What is [Graphic Processing Unit](title)!
+    - I would like to know [GPU](title)!
+    - what is the abbreviation for [Human in the Loop](title)?
+    - the abbreviation of [Human-in-the-Loop](title)?
+    - what is [HITL](title) ?
+    - tell me what is [Hyperparameter](title)?
+    - i don't understand [Hyperparameter Tuning](title)
+    - can you tell me what is  [HT](title)?
+    - can i ask you, what is [Image Recognition](title)?
+    - and what is [IR](title)?
+    - tell me more about [Inference](title)
+    - my question is . What is [Information Retrieval](title)!
+    - I would like to know [IR](title)!
+    - what is the abbreviation for [Layer](title)?
+    - the abbreviation of [Hidden Layer](title)?
+    - what is [Hidden Layers](title) ?
+    - tell me what is [Learning Rate](title)?
+    - i don't understand [ Machine Learning](title)
+    - can you tell me what is  [ML](title)?
+    - can i ask you, what is [Model](title)?
+    - and what is [Monte Carlo](title)?
+    - tell me more about [Multi-Modal Learning](title)
+    - my question is . What is [Multi-Task Learning](title)!
+    - I would like to know [Naive Bayes](title)!
+    - what is the abbreviation for [Named Entity Recognition](title)?
+    - the abbreviation of [NER](title)?
+    - what is [Natural Language Processing](title) ?
+    - tell me what is [NLP](title)?
+    - i don't understand [Neural Networks](title)
+    - can you tell me what is  [NN](title)?
+    - can i ask you, what is [Neuron](title)?
+    - and what is [Node](title)?
+    - tell me more about [Optical Character Recognition](title)
+    - my question is . What is [OCR](title)!
+    - I would like to know [Optimization](title)!
+    - what is the abbreviation for [Overfitting](title)?
+    - the abbreviation of [Underfitting](title)?
+    - what is [Pooling ](title) ?
+    - tell me what is [Max Pooling](title)?
+    - i don't understand [Precision](title)
+    - can you tell me what is  [Prediction](title)?
+    - can i ask you, what is [Preprocessing](title)?
+    - and what is [Pre-trained Model](title)?
+    - tell me more about [Principal Component Analysis](title)
+    - my question is . What is [PCA](title)!
+    - I would like to know [Random Forest](title)!
+    - what is the abbreviation for [RF](title)?
+    - the abbreviation of [Recurrent Neural Networks](title)?
+    - what is [RNN](title) ?
+    - tell me what is [Regression](title)?
+    - i don't understand [Linear Regression](title)
+    - can you tell me what is  [Logistic Regression](title)?
+    - can i ask you, what is [Regressor](title)?
+    - and what is [Regularization](title)?
+    - tell me more about [Reinforcement Learning](title)
+    - my question is . What is [RL](title)!
+    - I would like to know [Restricted Boltzmann Machines](title)!
+    - what is the abbreviation for [RBM](title)?
+    - the abbreviation of [Semi-Supervised Learning](title)?
+    - what is [Speech Recognition](title) ?
+    - tell me what is [SR](title)?
+    - i don't understand [Supervised Learning](title)
+    - can you tell me what is  [SL](title)?
+    - can i ask you, what is [TensorFlow](title)?
+    - and what is [Time Series ](title)?
+    - tell me more about [Time Series Data](title)
+    - my question is . What is [Testing ](title)!
+    - I would like to know [Testing Data](title)!
+    - what is the abbreviation for [Training Data](title)?
+    - the abbreviation of [Transfer Learning](title)?
+    - what is [Unsupervised Learning](title) ?
+    - tell me what is [UL](title)?
+    - i don't understand [Validation](title)
+    - can you tell me what is  [Variance](title)?
+    - can i ask you, what is [keras](title)?
+    - and what is [OpenCv](title)?
+    - tell me more about [Yolo](title)
+    - my question is . What is [social distancing](title)!
+    - I would like to know [Flask](title)!
+    - what is the abbreviation for [python](title)?
+    - the abbreviation of [deep learning](title)?
+    - what is [keras](title) ?
+    - tell me what is [tensorflow](title)?
+    - i don't understand [OpenCv](title)
+    - can you tell me what is  [Yolo](title)?
+    - can i ask you, what is [Mobile Net model](title)?
+    - and what is [Mask detection](title)?
+    - tell me more about [face recognition & Mask detection ](title)
+    - my question is . What is [social distancing](title)!
+    - I would like to know [Flask](title)!
+    - what is the abbreviation for [NLU](title)?
+    - the abbreviation of [Matplotib](title)?
+    - what is [Selenuim](title) ?
+    - tell me what is [Web driver](title)?
+    - i don't understand [Os](title)
+    - can you tell me what is  [Wget](title)?
+    - can i ask you, what is [Pickle ](title)?
+    - and what is [Keras](title)?
+    - tell me more about [Numpy](title)
+    - my question is . What is [Tensrflow](title)!
+    - I would like to know [Pandas](title)!
+    - what is the abbreviation for [Nltk](title)?
+    - the abbreviation of [GDCM](title)?
+    - what is [NLU](title) ?
+    - tell me what is [anaconda](title)?
+    - i don't understand [opencv](title)
+    - can you tell me what is  [tensorflow](title)?
+    - can i ask you, what is [keras](title)?
+    - and what is [scikit-learn](title)?
+    - tell me more about [matplotlib](title)
+    - my question is . What is [dlib](title)!
+    - I would like to know [numpy](title)!
+    - what is the abbreviation for [Accuracy](title)?
+    - the abbreviation of [confusion matrix](title)?
+    - what is [NLU](title) ?
+    - tell me what is [tensorflow](title)?
+    - i don't understand [keras](title)
+    - can you tell me what is  [imutils](title)?
+    - can i ask you, what is [numpy](title)?
+    - and what is [opencv](title)?
+    - tell me more about [matplotlib](title)
+    - my question is . What is [scipy](title)!
+    - I would like to know [yolo](title)!
+    - what is the abbreviation for [pygame](title)?
+    - the abbreviation of [python](title)?

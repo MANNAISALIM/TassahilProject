@@ -25,14 +25,14 @@ stories:
   - intent: definition_of_ai_component
   - action: action_definition_of_ai_component
   - intent: start_with_ai_component
-  - action:  action_start_with_ai_component
+  - action: action_start_with_ai_component
   - intent: version_of_ai_component
   - action: action_version_of_ai_component
   - intent: website_to_ai_component
   - action: action_website_to_ai_component
-  - intent:  next_step_ai_component
+  - intent: next_step_ai_component
   - action: action_next_step_ai_component
-  - intent:  architecture_of_ai_component
+  - intent: architecture_of_ai_component
   - action: action_architecture_of_ai_component
   - intent: revile
   - action: utter_revile
@@ -120,3 +120,105 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+- story: Story from Conversation ID 7d401179a8b04aaeaa803c89df7cd3b8
+  steps:
+  - action: action_webinar_duration
+  - slot_was_set:
+    - name: khalil
+  - intent: webinar_duration
+  - slot_was_set:
+    - title: machine learning
+  - intent: definition_of_ai_component
+    entities:
+    - title: machine learning
+  - slot_was_set:
+    - title: data sciece
+  - intent: architecture_of_ai_component
+    entities:
+    - title: data sciece
+  - slot_was_set:
+    - title: ML
+  - intent: architecture_of_ai_component
+    entities:
+    - title: ML
+  - action: action_architecture_of_ai_component
+  - slot_was_set:
+    - title: nlP
+  - intent: architecture_of_ai_component
+    entities:
+    - title: nlP
+  - action: action_architecture_of_ai_component
+  - slot_was_set:
+    - title: nlp
+  - action: action_architecture_of_ai_component
+  - intent: architecture_of_ai_component
+    entities:
+    - title: nlp
+  - action: action_architecture_of_ai_component
+  - slot_was_set:
+    - title: NLP
+  - intent: architecture_of_ai_component
+    entities:
+    - title: NLP
+  - slot_was_set:
+    - title: Nlp
+  - intent: architecture_of_ai_component
+    entities:
+    - title: Nlp
+  - slot_was_set:
+    - title: cnN
+  - intent: architecture_of_ai_component
+    entities:
+    - title: cnN
+  - action: action_architecture_of_ai_component
+  - action: action_architecture_of_ai_component
+  - slot_was_set:
+    - title: NLP
+  - intent: architecture_of_ai_component
+    entities:
+    - title: NLP
+  - slot_was_set:
+    - title: data
+  - intent: start_with_ai_component
+    entities:
+    - title: data
+  - slot_was_set:
+    - title: deep learning
+  - intent: next_step_ai_component
+    entities:
+    - title: deep learning
+  - action: action_next_step_ai_component
+  - intent: mood_great
+  - action: utter_happy
+  - intent: impressed_by_AI
+  - action: utter_impressed_by_AI
+  - intent: impressed_by_AI
+  - action: utter_impressed_by_AI
+  - intent: jokes
+  - slot_was_set:
+    - title: machine learning
+  - action: utter_happy_joke
+  - intent: laughing
+  - action: utter_laughing
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Story from Conversation ID 2cc9d6b188474c8f841ed6e885bd759b
+  steps:
+  - slot_was_set:
+    - name: anabil
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Story from Conversation ID d878fd553ca548369a0a9604b779789d
+  steps:
+  - action: action_definition_of_ai_component
+  - slot_was_set:
+    - title: data science
+  - intent: definition_of_ai_component
+    entities:
+    - title: data science
+  - slot_was_set:
+    - title: data science
+  - intent: definition_of_ai_component
+    entities:
+    - title: data science
+  - action: action_next_step_ai_component

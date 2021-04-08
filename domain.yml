@@ -73,6 +73,10 @@ intents:
     use_entities: true
 - architecture_of_ai_component:
     use_entities: true
+- impressed_by_AI:
+    use_entities: true
+- chat_language:
+    use_entities: true
 entities:
 - name
 - title
@@ -87,7 +91,6 @@ slots:
     initial_value: null
     auto_fill: true
     influence_conversation: true
-   
 responses:
   utter_greet:
   - text: Hey ! How are you?
@@ -169,7 +172,7 @@ responses:
   utter_webinar_domain:
   - text: ' This webinar discusses  {webinardomain} '
   - text: ' you can watch the webinar to learn more about {webinardomain} '
-  - text: ' This webinar focuses on {webinardomain} ' 
+  - text: ' This webinar focuses on {webinardomain} '
   utter_webinar_content:
   - text: ' In the webinar, there will be {webinarcontent}'
   - text: ' The webinar will include {webinarcontent}'
@@ -197,23 +200,33 @@ responses:
   - text: hhhhhh
   - text: :)
   utter_definition_of_ai_component:
-  - text: 'Sure , {definition}'
+  - text: Sure , {definition}
   - text: '{definition}'
   utter_start_with_ai_component:
-  - text: 'You have To start with {start}'
-  - text: 'To start with {title}, you have to take al look at {start}.'
+  - text: You have To start with {start}
+  - text: To start with {title}, you have to take al look at {start}.
   utter_version_of_ai_component:
-  - text: 'I am not sur, you can google it.'
+  - text: I am not sur, you can google it.
   utter_website_to_ai_component:
   - text: 'Here is the website: {website} '
   - text: 'This is the website you need: {website} '
   utter_next_step_ai_component:
-  - text: 'the best option is to continue with {next}'
-  - text: 'the best thing to do is to carry on with  {next}'
+  - text: the best option is to continue with {next}
+  - text: the best thing to do is to carry on with  {next}
   utter_architecture_of_ai_component:
   - image: ' {image}'
-    text: 'take a look at  this image :' 
+    text: 'take a look at  this image :'
+  utter_impressed_by_AI:
+  - text: ' sure , AI is a wonderful domain <3 '
+  - text: ' me too , i like that domain '
+  - text: ' AI is a fascinating field, I agree .'
+  utter_chat_language:
+  - text: ' The language I am most comfortable with is English.'
+  - text: ' I speak only English '
+  - text: ' My native language is English'
 actions:
+- utter_chat_language
+- utter_impressed_by_AI
 - utter_greet
 - utter_i_m_fine
 - utter_cheer_up
@@ -262,6 +275,5 @@ actions:
 - action_next_step_ai_component
 - utter_architecture_of_ai_component
 - action_architecture_of_ai_component
-
 forms: {}
 e2e_actions: []

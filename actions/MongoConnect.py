@@ -20,9 +20,10 @@ def getAiInfoFromMongo(title):
     db = client["ArtificialIntellegence"]
     collection = db["ArtificialIntellegenceCollection"]
     ai = {}
-    for x in collection.find({"Title" :{ "$eq" : title }}):
+    for x in collection.find({"Title" :{ "$regex" : title , "$options": "imns"}}):
         ai = x
 
     #print("Connection closed") 
     return (ai)
+    print(ai)
     client.close()

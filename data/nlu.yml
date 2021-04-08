@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -9,7 +8,7 @@ nlu:
     - hello there
     - good morning
     - good evening
-    - hallo  
+    - hallo
     - moin
     - hola
     - hey there
@@ -19,8 +18,11 @@ nlu:
     - goodevening
     - good afternoon
     - howdy
-- intent : name_entry
-  examples: | 
+    - hiiiiiiiiiiiiii
+    - hii
+    - hi their
+- intent: name_entry
+  examples: |
     - my name is [radhwen](name)
     - I am [fares](name)
     - name is [kais](name)
@@ -35,7 +37,7 @@ nlu:
     - [ala](name)
     - i m [ahmed](name)
     - this is [wael](name)
-    - i like calling me[raouf](name) 
+    - i like calling me[raouf](name)
     - I am [nouha](name)
     - I am [hajer](name)
     - The name I use is [fathel](name)
@@ -43,7 +45,6 @@ nlu:
     - my name is [mustafa](name)
     - I am [yassin](name)
     - name is [mohammed amine](name)
-    - It is [amer](name)
     - it's [abdellatif](name)
     - i am named [badreddin](name)
     - my first name is [nidhal](name)
@@ -53,30 +54,37 @@ nlu:
     - call me [olfa](name)
     - [wiem](name)
     - i m [lotfi](name)
-    - this is [wael](name)
-    - i like calling me[sahar](name) 
+    - i like calling me[sahar](name)
     - I am [fatma](name)
     - I am [hanène](name)
     - The name I use is [wissal](name)
     - This is the name I use [hayfa](name)
     - This is the name I use [dhia](name)
     - I am [ons](name)
-- intent : fine
-  examples : | 
-    - how are you ? 
+    - my name is [khalil](name)
+    - my name is [salim](name)
+    - my name is [saim](name)
+    - my freinds call me [chaker](name)
+    - my name is [anabil](name)
+- intent: fine
+  examples: |
+    - how are you ?
     - and you !
     - are you ok !
     - Is everything okay with you?
     - How is everything with you?
-    - what's up 
+    - what's up
     - do you feel ok?
     - how do you feel?
     - Are you alright ?
-    - my dear, how are you? 
-- intent : revile
-  examples : |
+    - my dear, how are you?
+    - how are you
+    - and you
+    - fine and you
+- intent: revile
+  examples: |
     - curse
-    - damn 
+    - damn
     - shame
     - shit
     - fuck
@@ -86,115 +94,148 @@ nlu:
     - What the heck?
     - What the fuck does that mean?
     - Goddamn
-
-- intent : jokes
+    - cuk you
+    - bitch
+    - hi fucken dtupred
+- intent: jokes
   examples: |
-    - tell me a joke 
+    - tell me a joke
     - I need a joke
     - joke
     - any jokes!
     - funny joke
-    - not funny 
+    - not funny
     - I want to  laugh
     - make me laugh
     - I want to hear a joke.
     - A joke would be nice.
     - It would be enjoyable to hear a joke.
-    - what jokes are there? 
+    - what jokes are there?
     - can you tell me a joke!
     - I want a joke
     - it is not funny
-- intent : inform_location
+    - yes i said tell me a joke
+    - telle me a joke sara !
+    - telle me a joke
+    - hoke
+    - jk
+    - tel m jok
+    - tel me jok
+    - el me jok
+    - i need a joke
+- intent: inform_location
   examples: |
     - and where is tassahil center?
     - tassahil location!
     - how can'I find tassahil center?
-    - is tassahil in sfax 
+    - is tassahil in sfax
     - tunis !
     - where is tassahil
     - is the center in tunis city
     - location of tassahil
     - The location of the Tassahil center
     - what is the way  to tassahil
-    - is your location is close 
+    - is your location is close
     - you're not too far from me!
     - how can i find your location
     - Where are you located ?
     - can you give me your address
     - i need your address
     - give me your address location
-- intent : inform_definition
+    - and where is tassahil
+    - wher is
+    - how can i get tassahil location
+    - and how can i get tassahillocation
+    - whr is tassahil
+    - what is tassahil
+    - ok then what is tassahil
+    - yes and wher is tassahil
+    - tassail
+    - tassahil
+    - i wonna know tassahil location
+- intent: inform_definition
   examples: |
     - what is tassahil?
-    - present me tassahil 
+    - present me tassahil
     - what is Tassahil Center for Intelligent Solutions?
-    - can you define me what is tassahil 
+    - can you define me what is tassahil
     - tell me more about tassahil center
     - can you tell me what is tassahil center!
     - I need informations about Tassahil Center for Intelligent Solutions!
     - I need more informations about tassahil center!
     - I don't know tassahil center
-    - present me your company 
-    - tell me more about your company 
-    - I have to know what is tassahil center 
-    - I would like to know more about your company. 
-    - Your company interests me. 
-    - My interest in your company is strong. 
-    - please tell me about your company. 
-    - What can you tell me about your company? 
-- intent : inform_services
+    - present me your company
+    - tell me more about your company
+    - I have to know what is tassahil center
+    - I would like to know more about your company.
+    - Your company interests me.
+    - My interest in your company is strong.
+    - please tell me about your company.
+    - What can you tell me about your company?
+    - waht about tassahil center
+    - what about tassagl
+    - tassahil center
+    - tasahil center !
+    - and what is tassahil definition
+    - what ois tassahil center
+    - tell me about tassahil
+- intent: inform_services
   examples: |
     - what is your services ?
     - tassahil services
     - tassahil business
     - what is your domain!
     - services ?
-    - any information about tassahil services! 
-    - how many sevices 
-    - services provides 
+    - any information about tassahil services!
+    - how many sevices
+    - services provides
     - what services do you provide ?
     - what about services
     - What kind of services do you provide ?
     - what kind of services do you offer?
     - what kind of services tassahil offer?
-    - Any info about Tassahil's services? 
-- intent : webinar_name
+    - Any info about Tassahil's services?
+    - tasahil services
+    - services of tassahil
+- intent: webinar_name
   examples: |
     - what is the topic of the webinar ?
-    - what this presentation will be on 
+    - what this presentation will be on
     - i want to know the topic of the webinar
     - webinar topic
     - webinar name
-    - the title of the webinar 
+    - the title of the webinar
     - what about this webinar
-    - what we will talk about 
-    - what about the topic 
-    - what is the name of the webinar 
+    - what we will talk about
+    - what about the topic
+    - what is the name of the webinar
     - what is the topic of the presentation
-    - what will be the topic of the online seminar 
+    - what will be the topic of the online seminar
     - the webinar topic is?
     - what about the webinar
     - what about the upcoming webinar
-    - upcoming webinar 
+    - upcoming webinar
     - and what the next webinar will be about
     - can' i ask you what the next webinar will cover
-- intent : webinar_date
+    - ok then what is the  next webinar name
+- intent: webinar_date
   examples: |
     - whene the webinar will begin ?
-    - time of the webinar 
-    - the exact time  of the webinar  
+    - time of the webinar
+    - the exact time  of the webinar
     - what is the date
-    - when will the webinar start 
+    - when will the webinar start
     - when does the webinar start
-    - Is this webinar scheduled for today? 
+    - Is this webinar scheduled for today?
     - Does this webinar have a date for today?
-    - the webinar's time  
+    - the webinar's time
     - the webinar will start on !
     - is it in this month !
-    - is the webinar in these days 
-    - Is there a webinar today? 
+    - is the webinar in these days
+    - Is there a webinar today?
     - exactly when it will take place.
-- intent : webinar_participants
+    - how time it will take
+- intent: webinar_participants
   examples: |
     - how many participants in the webinar ?
     - Attendance at the webinar !
@@ -203,10 +244,10 @@ nlu:
     - how many persons will be their
     - The number of people expected to attend
     - Estimated number of attendees
-    - how many people will participate 
+    - how many people will participate
     - how many person will participate in this webinar
     - how many person there
-    - is there is many person 
+    - is there is many person
     - a lot of people there!
     - how many boys?
     - how many girls?
@@ -214,8 +255,7 @@ nlu:
     - how many men will be there ?
     - Is this for the general public?
     - is the webinar for public!
-
-- intent : webinar_duration
+- intent: webinar_duration
   examples: |
     - how long the webinar will take  ?
     - the length of the webinar
@@ -225,28 +265,30 @@ nlu:
     - how long the event will last
     - number of hours!
     - is it a short webinar
-    - is it a long webinar! 
+    - is it a long webinar!
     - is it durable
     - is the webinar long
-    - how many hours the webinar will take 
+    - how many hours the webinar will take
     - how many hours to finish
-
-- intent : webinar_instructor
+    - is it long
+- intent: webinar_instructor
   examples: |
     - who is the instructor ?
     - What is the name of the instructor?
     - who will assist the webinar
     - Can you tell me the name of the instructor?
     - Is there a name of the instructor?
-    - instructor name please 
+    - instructor name please
     - instructor
-    - webinar presenter 
-    - What is the name of the instructor?
+    - webinar presenter
     - and how is the presenter
     - and how is the instructor
     - and what about the instructor
-    - does the webinar will be instructed by 
-- intent : webinar_domain
+    - does the webinar will be instructed by
+    - who is the instructor
+    - how is the instructor
+    - how is the instructoor
+- intent: webinar_domain
   examples: |
     - what is the webinar domain ?
     - what we will talk about in this webinar
@@ -262,21 +304,21 @@ nlu:
     - what domain we will discover in this webinar
     - is it for IOT or AI or something else!
     - what about the domain!
-- intent : webinar_content
+- intent: webinar_content
   examples: |
-    - the content of the webinar 
+    - the content of the webinar
     - what is the content of the webinar?
-    - how will the webinar be structured? 
-    - a description of the webinar’s content. 
-    - how will the webinar be organized? 
-    - What will the webinar consist of? 
+    - how will the webinar be structured?
+    - a description of the webinar’s content.
+    - how will the webinar be organized?
+    - What will the webinar consist of?
     - is it a workshop
     - is it a presentation
     - is it practical or theoretical
     - what does it mean to be practically minded or theoretically minded
     - is the webinar will be a workshop or a presentation
     - any resources are required !
-- intent : webinar_registration
+- intent: webinar_registration
   examples: |
     - can you send me the link of registration
     - please let me know how to register.
@@ -284,7 +326,7 @@ nlu:
     - what about registration?
     - how do I register?
     - what is the registration process?
-    - i want to be present in this webinar 
+    - i want to be present in this webinar
     - I would like to attend the webinar
     - yes , i will participate
     - I will participate in the webinar.
@@ -295,7 +337,7 @@ nlu:
     - registering link please !
     - link to register please !
     - link  to register
-- intent : webinar_cost
+- intent: webinar_cost
   examples: |
     - How much will it cost?
     - how much did it cost?
@@ -303,32 +345,34 @@ nlu:
     - In what range did it cost?
     - Approximately how much did it cost?
     - Was it a lot or a little?
-    - Please let me know the cost. 
-    - The cost was not displayed. 
+    - Please let me know the cost.
+    - The cost was not displayed.
     - what about the cost !
     - what's the cost ?
-    - cost please 
+    - cost please
     - is it expensive
     - does it cost a lot?
     - what about cost
     - what about money
     - what about  the cost of the webinar
-- intent : webinar_details
+    - price of the webinar
+- intent: webinar_details
   examples: |
     - tell me about the webinar
-    - webinar 
+    - webinar
     - webinar details
     - next webinar
     - tell me more about the webinar
-    - webinar briefly 
+    - webinar briefly
     - what about the next webinar
-    - Briefly, we attended a webinar on 
-    - Briefly, the webinar will be 
+    - Briefly, we attended a webinar on
+    - Briefly, the webinar will be
     - more information about the webinar
-    - the next event will be 
-    - what about the next webinar
+    - the next event will be
     - what about the upcoming webinar
     - What do you think of the upcoming webinar?
+    - what is te next webinar
+    - can tell me more about the webinar
 - intent: goodbye
   examples: |
     - good afternoon
@@ -342,14 +386,17 @@ nlu:
     - see you around
     - bye bye
     - see you later
-    - Thank you for your time. 
-    - I appreciate your time. 
-    - really appreciate that 
+    - Thank you for your time.
+    - I appreciate your time.
+    - really appreciate that
     - thank you for this informations
     - This information is very helpful, thank you.
     - thank you
     - thanks
-
+    - good bye sar
+    - good bye sara
+    - good bye
+    - thanks i relly appreciate it
 - intent: affirm
   examples: |
     - yes
@@ -358,7 +405,7 @@ nlu:
     - of course
     - that sounds good
     - correct
-    - sure 
+    - sure
     - right
     - that's right
     - hmmm
@@ -372,7 +419,10 @@ nlu:
     - all right
     - that's fine
     - all right then
-
+    - ok bro thnaks
+    - yes thnk you
+    - yes thansk
+    - fine thank you
 - intent: deny
   examples: |
     - no
@@ -386,16 +436,15 @@ nlu:
     - maybe
     - none
     - emmm
-    - not sure 
+    - not sure
     - In my opinion, no.
     - i m not agree with you
-
-
+    - im no happy
 - intent: mood_great
   examples: |
     - perfect
     - great
-    - ok then         
+    - ok then
     - amazing
     - feeling like a king
     - wonderful
@@ -408,15 +457,20 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-    - I am fine 
+    - I am fine
     - fine, thank you
     - I am doing ok
     - I am doing good
     - very good
     - better today
     - I'm good
+    - fine
     - I am good
-
+    - ok thnaks
+    - ok
+    - i fine tank you
+    - im fine
+    - goood
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -435,11 +489,11 @@ nlu:
     - so sad
     - i m not ok
     - i m not fine
-    - help me 
+    - help me
     - make me feel ok
     - i m so sad
-    - it is been a long day 
-    - I have been working all day. 
+    - it is been a long day
+    - I have been working all day.
     - i don't feel right
 - intent: bot_challenge
   examples: |
@@ -458,24 +512,23 @@ nlu:
     - are you sara !
     - are you real !
     - what is your name
-    
 - intent: fromwekipedia
   examples: |
     - what is hello world programme ?
-    - more information about hello world programme 
-    - hello world! 
+    - more information about hello world programme
+    - hello world!
     - print(hello world)
     - what about hello world  programme
-    - more informations about hello world 
-
-- intent : out_of_scoop
+    - more informations about hello world
+    - what is hello world programme
+- intent: out_of_scoop
   examples: |
     - I want to order food
     - what is 2 + 2
     - who is the us president ?
     - football
     - last serie
-- intent : laughing
+- intent: laughing
   examples: |
     - hhhhhh
     - Hahaha
@@ -484,8 +537,9 @@ nlu:
     - hhhhhhhhhhhhhh
     - hh
     - :)
-
-- intent : definition_of_ai_component
+    - hhhhh
+    - hhhhhhhhhhhhhhhhhhhhh
+- intent: definition_of_ai_component
   examples: |
     - tell me what is [Artificial Intelligence](title)
     - what is [AI](title)
@@ -496,62 +550,1367 @@ nlu:
     - what is [intents](title)
     - what is  [nlu](title)
     - tell me what is [Artificial neural network](title)
-    - what is [ANN](title)
-    - what is [Chatbots](title)
-    - define me [Classification] (title)
-    - define me [Cluster analysis] (title)
-    - what is [Clustering](title)
-    - what is [Cognitive computing](title)
-    - what is [Convolutional neural network](title)
-    - what is  [CNN](title)
-    - tell me what is [Data mining](title)
-    - what is [Data science](title)
-    - what is [Decision tree](title)
-    - define me [Deep learning] (title)
-    - define me [Fluent] (title)
-    - what is [Game AI](title)
-    - what is [Genetic algorithm](title)
-    - what is [Heuristic search techniques](title)
-    - what is  [Knowledge engineering](title)
-    - tell me what is [Logic programming](title)
-    - what is [Machine intelligence](title)
-    - what is [Machine learning](title)
-    - define me [Machine perception] (title)
-    - define me [Natural  language  processing] (title)
-    - what is [Recurrent neural network](title)
-    - what is [RNN](title)
-    - what is [Supervised learning](title)
-    - what is  [Swarm behavior](title)
-    - what is  [Unsupervised learning](title)
-
-- intent : start_with_ai_component
+    - what is [Machine learning](title) ?
+    - tell me what is [Supervised learning](title)?
+    - i don't understand [Semisupervised learning](title)
+    - can you tell me what is  [Unsupervised learning](title)?
+    - can i ask you, what is [Reinforcement learning](title)?
+    - and what is [Algorithms machine learning](title)?
+    - tell me more about [Linear Regression](title)
+    - my question is . What is [Logistic Regression](title)!
+    - I would like to know [Decision Tree](title)!
+    - what is the abbreviation for [ Support Vector Machine](title)?
+    - the abbreviation of [Naive Bayes](title)?
+    - what is [kNN (k- Nearest Neighbors)](title) ?
+    - tell me what is [K-Means](title)?
+    - i don't understand [Random Forest](title)
+    - can you tell me what is  [Dimensionality Reduction ](title)?
+    - can i ask you, what is [Principal component analysis ](title)?
+    - and what is [NLP](title)?
+    - tell me more about [deep learning](title)
+    - my question is . What is [Convolutional neural network](title)!
+    - I would like to know [Input layer](title)!
+    - what is the abbreviation for [Hidden Layer](title)?
+    - the abbreviation of [output layer](title)?
+    - what is [ PCA](title) ?
+    - tell me what is [SVM](title)?
+    - i don't understand [CNN](title)
+    - can you tell me what is  [LSMN](title)?
+    - can i ask you, what is [NLTK](title)?
+    - and what is [spaCy](title)?
+    - tell me more about [tokenization nlp](title)
+    - my question is . What is [stemming NLP](title)!
+    - I would like to know [lemmatization NLP](title)!
+    - what is the abbreviation for [text vectorization](title)?
+    - the abbreviation of [Binary Term Frequency](title)?
+    - what is [Bag of Words ](title) ?
+    - tell me what is [BoW](title)?
+    - i don't understand [normalized tf-idf](title)
+    - can you tell me what is  [Word2Vec](title)?
+    - can i ask you, what is [Continuous Bag of Words](title)?
+    - and what is [CBOW](title)?
+    - tell me more about [Skip-Gram ](title)
+    - my question is . What is [SG](title)!
+    - I would like to know [cosine similarity](title)!
+    - what is the abbreviation for [soft cosine similarity](title)?
+    - the abbreviation of [speech to text](title)?
+    - what is [STT](title) ?
+    - tell me what is [Speech recognition](title)?
+    - i don't understand [text to speech](title)
+    - can you tell me what is  [TTS](title)?
+    - can i ask you, what is [librosa](title)?
+    - and what is [mfcc](title)?
+    - tell me more about [Mel Frequency Cepstral Coefficient ](title)
+    - my question is . What is [OCR](title)!
+    - I would like to know [pytesseract](title)!
+    - what is the abbreviation for [Deep Speech](title)?
+    - the abbreviation of [Batch size](title)?
+    - what is [epoch deep learning](title) ?
+    - tell me what is [summary deep learning](title)?
+    - i don't understand [Model fitting](title)
+    - can you tell me what is  [model accuracy.](title)?
+    - can i ask you, what is [confusion matrix](title)?
+    - and what is [Correlation matrix](title)?
+    - tell me more about [Precision](title)
+    - my question is . What is [Recall](title)!
+    - I would like to know [F1 score](title)!
+    - what is the abbreviation for [accuracy](title)?
+    - the abbreviation of [vgg16](title)?
+    - what is [ImageNet](title) ?
+    - tell me what is [wordnet](title)?
+    - i don't understand [mobilenetv2](title)
+    - can you tell me what is  [ResNet](title)?
+    - can i ask you, what is [Inception V3](title)?
+    - and what is [Xception](title)?
+    - tell me more about [jaccard similarity](title)
+    - my question is . What is [stopwords](title)!
+    - I would like to know [Jaccard distance](title)!
+    - what is the abbreviation for [clustering](title)?
+    - the abbreviation of [topic modeling](title)?
+    - what is [LDA](title) ?
+    - tell me what is [image captioning](title)?
+    - i don't understand [A/B Testing](title)
+    - can you tell me what is  [Activation Function](title)?
+    - can i ask you, what is [Active Learning](title)?
+    - and what is [Algorithm](title)?
+    - tell me more about [Annotation](title)
+    - my question is . What is [Area Under the Curve ](title)!
+    - I would like to know [Artificial Intelligence](title)!
+    - what is the abbreviation for [Artificial Neural Networks](title)?
+    - the abbreviation of [Association Rule Learning](title)?
+    - what is [Autoencoder](title) ?
+    - tell me what is [Automated Speech Recognition](title)?
+    - i don't understand [Batch](title)
+    - can you tell me what is  [Bayes’s Theorem](title)?
+    - can i ask you, what is [Bias](title)?
+    - and what is [Boosting](title)?
+    - tell me more about [Chatbot](title)
+    - my question is . What is [Classification](title)!
+    - I would like to know [Clustering](title)!
+    - what is the abbreviation for [Computer Vision](title)?
+    - the abbreviation of [Confidence Interval](title)?
+    - what is [Convolutional Neural Network](title) ?
+    - tell me what is [Cross-Validation](title)?
+    - i don't understand [Data](title)
+    - can you tell me what is  [Structured Data](title)?
+    - can i ask you, what is [Unstructured Data](title)?
+    - and what is [Data augmentation](title)?
+    - tell me more about [CNN](title)
+    - my question is . What is [CV](title)!
+    - I would like to know [AI](title)!
+    - what is the abbreviation for [ANN](title)?
+    - the abbreviation of [Decision Tree](title)?
+    - what is [DT](title) ?
+    - tell me what is [Deep Blue](title)?
+    - i don't understand [Deep Learning](title)
+    - can you tell me what is  [DL](title)?
+    - can i ask you, what is [Deep Reinforcement Learning](title)?
+    - and what is [Embedding](title)?
+    - tell me more about [Word Embedding](title)
+    - my question is . What is [Ensemble Methods](title)!
+    - I would like to know [Entropy](title)!
+    - what is the abbreviation for [Epoch](title)?
+    - the abbreviation of [Feature](title)?
+    - what is [Feature Selection](title) ?
+    - tell me what is [Feature Learning](title)?
+    - i don't understand [False Positive](title)
+    - can you tell me what is  [False Negative](title)?
+    - can i ask you, what is [Feed-Forward Networks](title)?
+    - and what is [Feed-Forward ](title)?
+    - tell me more about [Feed-Forward  Neural Networks](title)
+    - my question is . What is [F-Score](title)!
+    - I would like to know [Garbage In](title)!
+    - what is the abbreviation for [Garbage Out](title)?
+    - the abbreviation of [Garbage In and  Garbage Out](title)?
+    - what is [GIGO](title) ?
+    - tell me what is [General Data Protection Regulation ](title)?
+    - i don't understand [GDPR](title)
+    - can you tell me what is  [Genetic Algorithm](title)?
+    - can i ask you, what is [Generative Adversarial Networks](title)?
+    - and what is [GANs](title)?
+    - tell me more about [GAN](title)
+    - my question is . What is [Graphic Processing Unit](title)!
+    - I would like to know [GPU](title)!
+    - what is the abbreviation for [Human in the Loop](title)?
+    - the abbreviation of [Human-in-the-Loop](title)?
+    - what is [HITL](title) ?
+    - tell me what is [Hyperparameter](title)?
+    - i don't understand [Hyperparameter Tuning](title)
+    - can you tell me what is  [HT](title)?
+    - can i ask you, what is [Image Recognition](title)?
+    - and what is [IR](title)?
+    - tell me more about [Inference](title)
+    - my question is . What is [Information Retrieval](title)!
+    - I would like to know [IR](title)!
+    - what is the abbreviation for [Layer](title)?
+    - the abbreviation of [Hidden Layer](title)?
+    - what is [Hidden Layers](title) ?
+    - tell me what is [Learning Rate](title)?
+    - i don't understand [ Machine Learning](title)
+    - can you tell me what is  [ML](title)?
+    - can i ask you, what is [Model](title)?
+    - and what is [Monte Carlo](title)?
+    - tell me more about [Multi-Modal Learning](title)
+    - my question is . What is [Multi-Task Learning](title)!
+    - I would like to know [Naive Bayes](title)!
+    - what is the abbreviation for [Named Entity Recognition](title)?
+    - the abbreviation of [NER](title)?
+    - what is [Natural Language Processing](title) ?
+    - tell me what is [NLP](title)?
+    - i don't understand [Neural Networks](title)
+    - can you tell me what is  [NN](title)?
+    - can i ask you, what is [Neuron](title)?
+    - and what is [Node](title)?
+    - tell me more about [Optical Character Recognition](title)
+    - I would like to know [Optimization](title)!
+    - what is the abbreviation for [Overfitting](title)?
+    - the abbreviation of [Underfitting](title)?
+    - what is [Pooling ](title) ?
+    - tell me what is [Max Pooling](title)?
+    - i don't understand [Precision](title)
+    - can you tell me what is  [Prediction](title)?
+    - can i ask you, what is [Preprocessing](title)?
+    - and what is [Pre-trained Model](title)?
+    - tell me more about [Principal Component Analysis](title)
+    - my question is . What is [PCA](title)!
+    - I would like to know [Random Forest](title)!
+    - what is the abbreviation for [RF](title)?
+    - the abbreviation of [Recurrent Neural Networks](title)?
+    - what is [RNN](title) ?
+    - tell me what is [Regression](title)?
+    - i don't understand [Linear Regression](title)
+    - can you tell me what is  [Logistic Regression](title)?
+    - can i ask you, what is [Regressor](title)?
+    - and what is [Regularization](title)?
+    - tell me more about [Reinforcement Learning](title)
+    - my question is . What is [RL](title)!
+    - I would like to know [Restricted Boltzmann Machines](title)!
+    - what is the abbreviation for [RBM](title)?
+    - the abbreviation of [Semi-Supervised Learning](title)?
+    - what is [Speech Recognition](title) ?
+    - tell me what is [SR](title)?
+    - i don't understand [Supervised Learning](title)
+    - can you tell me what is  [SL](title)?
+    - can i ask you, what is [TensorFlow](title)?
+    - and what is [Time Series ](title)?
+    - tell me more about [Time Series Data](title)
+    - my question is . What is [Testing ](title)!
+    - I would like to know [Testing Data](title)!
+    - what is the abbreviation for [Training Data](title)?
+    - the abbreviation of [Transfer Learning](title)?
+    - what is [Unsupervised Learning](title) ?
+    - tell me what is [UL](title)?
+    - i don't understand [Validation](title)
+    - can you tell me what is  [Variance](title)?
+    - can i ask you, what is [keras](title)?
+    - and what is [OpenCv](title)?
+    - tell me more about [Yolo](title)
+    - my question is . What is [social distancing](title)!
+    - I would like to know [Flask](title)!
+    - what is the abbreviation for [python](title)?
+    - the abbreviation of [deep learning](title)?
+    - what is [keras](title) ?
+    - tell me what is [tensorflow](title)?
+    - i don't understand [OpenCv](title)
+    - can you tell me what is  [Yolo](title)?
+    - can i ask you, what is [Mobile Net model](title)?
+    - and what is [Mask detection](title)?
+    - tell me more about [face recognition & Mask detection ](title)
+    - what is the abbreviation for [NLU](title)?
+    - the abbreviation of [Matplotib](title)?
+    - what is [Selenuim](title) ?
+    - tell me what is [Web driver](title)?
+    - i don't understand [Os](title)
+    - can you tell me what is  [Wget](title)?
+    - can i ask you, what is [Pickle ](title)?
+    - and what is [Keras](title)?
+    - tell me more about [Numpy](title)
+    - my question is . What is [Tensrflow](title)!
+    - I would like to know [Pandas](title)!
+    - what is the abbreviation for [Nltk](title)?
+    - the abbreviation of [GDCM](title)?
+    - what is [NLU](title) ?
+    - tell me what is [anaconda](title)?
+    - i don't understand [opencv](title)
+    - can you tell me what is  [tensorflow](title)?
+    - and what is [scikit-learn](title)?
+    - tell me more about [matplotlib](title)
+    - my question is . What is [dlib](title)!
+    - I would like to know [numpy](title)!
+    - what is the abbreviation for [Accuracy](title)?
+    - the abbreviation of [confusion matrix](title)?
+    - i don't understand [keras](title)
+    - can you tell me what is  [imutils](title)?
+    - can i ask you, what is [numpy](title)?
+    - and what is [opencv](title)?
+    - my question is . What is [scipy](title)!
+    - I would like to know [yolo](title)!
+    - what is the abbreviation for [pygame](title)?
+    - the abbreviation of [python](title)?
+    - and what is next [machine learning](title)
+    - ok then can you tell me what is [nlp](title)
+    - what is [nlp](title)
+- intent: start_with_ai_component
   examples: |
     - how can i start with [nlu](title)
     - starting point of [nlp](title)
     - from where should'i get start [ML](title)
-- intent : version_of_ai_component
+    - how can i start with [Machine learning](title)
+    - starting point of [Supervised learning](title)
+    - from where should i get start [Semisupervised learning](title)
+    - what if want to be professional in [Unsupervised learning](title)
+    - What is the best way to get started with [Reinforcement learning](title)
+    - What is the best way to start with [Algorithms machine learning](title)
+    - how can i start with [Linear Regression](title)
+    - starting point of [Logistic Regression](title)
+    - from where should i get start [Decision Tree](title)
+    - what if want to be professional in [ Support Vector Machine](title)
+    - What is the best way to get started with [Naive Bayes](title)
+    - What is the best way to start with [kNN (k- Nearest Neighbors)](title)
+    - how can i start with [K-Means](title)
+    - starting point of [Random Forest](title)
+    - from where should i get start [Dimensionality Reduction ](title)
+    - what if want to be professional in [Principal component analysis ](title)
+    - What is the best way to get started with [NLP](title)
+    - What is the best way to start with [deep learning](title)
+    - how can i start with [Convolutional neural network](title)
+    - starting point of [Input layer](title)
+    - from where should i get start [Hidden Layer](title)
+    - what if want to be professional in [output layer](title)
+    - What is the best way to get started with [ PCA](title)
+    - What is the best way to start with [SVM](title)
+    - how can i start with [CNN](title)
+    - starting point of [LSMN](title)
+    - from where should i get start [NLTK](title)
+    - what if want to be professional in [spaCy](title)
+    - What is the best way to get started with [tokenization nlp](title)
+    - What is the best way to start with [stemming NLP](title)
+    - how can i start with [lemmatization NLP](title)
+    - starting point of [text vectorization](title)
+    - from where should i get start [Binary Term Frequency](title)
+    - what if want to be professional in [Bag of Words ](title)
+    - What is the best way to get started with [BoW](title)
+    - What is the best way to start with [normalized tf-idf](title)
+    - how can i start with [Word2Vec](title)
+    - starting point of [Continuous Bag of Words](title)
+    - from where should i get start [CBOW](title)
+    - what if want to be professional in [Skip-Gram ](title)
+    - What is the best way to get started with [SG](title)
+    - What is the best way to start with [cosine similarity](title)
+    - how can i start with [soft cosine similarity](title)
+    - starting point of [speech to text](title)
+    - from where should i get start [STT](title)
+    - what if want to be professional in [Speech recognition](title)
+    - What is the best way to get started with [text to speech](title)
+    - What is the best way to start with [TTS](title)
+    - how can i start with [librosa](title)
+    - starting point of [mfcc](title)
+    - from where should i get start [Mel Frequency Cepstral Coefficient ](title)
+    - what if want to be professional in [OCR](title)
+    - What is the best way to get started with [pytesseract](title)
+    - What is the best way to start with [Deep Speech](title)
+    - how can i start with [Batch size](title)
+    - starting point of [epoch deep learning](title)
+    - from where should i get start [summary deep learning](title)
+    - what if want to be professional in [Model fitting](title)
+    - What is the best way to get started with [model accuracy.](title)
+    - What is the best way to start with [confusion matrix](title)
+    - how can i start with [Correlation matrix](title)
+    - starting point of [Precision](title)
+    - from where should i get start [Recall](title)
+    - what if want to be professional in [F1 score](title)
+    - What is the best way to get started with [accuracy](title)
+    - What is the best way to start with [vgg16](title)
+    - how can i start with [ImageNet](title)
+    - starting point of [wordnet](title)
+    - from where should i get start [mobilenetv2](title)
+    - what if want to be professional in [ResNet](title)
+    - What is the best way to get started with [Inception V3](title)
+    - What is the best way to start with [Xception](title)
+    - how can i start with [jaccard similarity](title)
+    - starting point of [stopwords](title)
+    - from where should i get start [Jaccard distance](title)
+    - what if want to be professional in [clustering](title)
+    - What is the best way to get started with [topic modeling](title)
+    - What is the best way to start with [LDA](title)
+    - how can i start with [image captioning](title)
+    - starting point of [A/B Testing](title)
+    - from where should i get start [Activation Function](title)
+    - what if want to be professional in [Active Learning](title)
+    - What is the best way to get started with [Algorithm](title)
+    - What is the best way to start with [Annotation](title)
+    - how can i start with [Area Under the Curve ](title)
+    - starting point of [Artificial Intelligence](title)
+    - from where should i get start [Artificial Neural Networks](title)
+    - what if want to be professional in [Association Rule Learning](title)
+    - What is the best way to get started with [Autoencoder](title)
+    - What is the best way to start with [Automated Speech Recognition](title)
+    - how can i start with [Batch](title)
+    - starting point of [Bayes’s Theorem](title)
+    - from where should i get start [Bias](title)
+    - what if want to be professional in [Boosting](title)
+    - What is the best way to get started with [Chatbot](title)
+    - What is the best way to start with [Classification](title)
+    - how can i start with [Clustering](title)
+    - starting point of [Computer Vision](title)
+    - from where should i get start [Confidence Interval](title)
+    - what if want to be professional in [Convolutional Neural Network](title)
+    - What is the best way to get started with [Cross-Validation](title)
+    - What is the best way to start with [Data](title)
+    - how can i start with [Structured Data](title)
+    - starting point of [Unstructured Data](title)
+    - from where should i get start [Data augmentation](title)
+    - what if want to be professional in [CNN](title)
+    - What is the best way to get started with [CV](title)
+    - What is the best way to start with [AI](title)
+    - how can i start with [ANN](title)
+    - starting point of [Decision Tree](title)
+    - from where should i get start [DT](title)
+    - what if want to be professional in [Deep Blue](title)
+    - What is the best way to get started with [Deep Learning](title)
+    - What is the best way to start with [DL](title)
+    - how can i start with [Deep Reinforcement Learning](title)
+    - starting point of [Embedding](title)
+    - from where should i get start [Word Embedding](title)
+    - what if want to be professional in [Ensemble Methods](title)
+    - What is the best way to get started with [Entropy](title)
+    - What is the best way to start with [Epoch](title)
+    - how can i start with [Feature](title)
+    - starting point of [Feature Selection](title)
+    - from where should i get start [Feature Learning](title)
+    - what if want to be professional in [False Positive](title)
+    - What is the best way to get started with [False Negative](title)
+    - What is the best way to start with [Feed-Forward Networks](title)
+    - how can i start with [Feed-Forward ](title)
+    - starting point of [Feed-Forward  Neural Networks](title)
+    - from where should i get start [F-Score](title)
+    - what if want to be professional in [Garbage In](title)
+    - What is the best way to get started with [Garbage Out](title)
+    - What is the best way to start with [Garbage In and  Garbage Out](title)
+    - how can i start with [GIGO](title)
+    - starting point of [General Data Protection Regulation ](title)
+    - from where should i get start [GDPR](title)
+    - what if want to be professional in [Genetic Algorithm](title)
+    - What is the best way to get started with [Generative Adversarial Networks](title)
+    - What is the best way to start with [GANs](title)
+    - how can i start with [GAN](title)
+    - starting point of [Graphic Processing Unit](title)
+    - from where should i get start [GPU](title)
+    - what if want to be professional in [Human in the Loop](title)
+    - What is the best way to get started with [Human-in-the-Loop](title)
+    - What is the best way to start with [HITL](title)
+    - how can i start with [Hyperparameter](title)
+    - starting point of [Hyperparameter Tuning](title)
+    - from where should i get start [HT](title)
+    - what if want to be professional in [Image Recognition](title)
+    - What is the best way to get started with [IR](title)
+    - What is the best way to start with [Inference](title)
+    - how can i start with [Information Retrieval](title)
+    - starting point of [IR](title)
+    - from where should i get start [Layer](title)
+    - what if want to be professional in [Hidden Layer](title)
+    - What is the best way to get started with [Hidden Layers](title)
+    - What is the best way to start with [Learning Rate](title)
+    - how can i start with [ Machine Learning](title)
+    - starting point of [ML](title)
+    - from where should i get start [Model](title)
+    - what if want to be professional in [Monte Carlo](title)
+    - What is the best way to get started with [Multi-Modal Learning](title)
+    - What is the best way to start with [Multi-Task Learning](title)
+    - how can i start with [Naive Bayes](title)
+    - starting point of [Named Entity Recognition](title)
+    - from where should i get start [NER](title)
+    - what if want to be professional in [Natural Language Processing](title)
+    - What is the best way to start with [Neural Networks](title)
+    - how can i start with [NN](title)
+    - starting point of [Neuron](title)
+    - from where should i get start [Node](title)
+    - what if want to be professional in [Optical Character Recognition](title)
+    - What is the best way to get started with [OCR](title)
+    - What is the best way to start with [Optimization](title)
+    - how can i start with [Overfitting](title)
+    - starting point of [Underfitting](title)
+    - from where should i get start [Pooling ](title)
+    - what if want to be professional in [Max Pooling](title)
+    - What is the best way to get started with [Precision](title)
+    - What is the best way to start with [Prediction](title)
+    - how can i start with [Preprocessing](title)
+    - starting point of [Pre-trained Model](title)
+    - from where should i get start [Principal Component Analysis](title)
+    - what if want to be professional in [PCA](title)
+    - What is the best way to get started with [Random Forest](title)
+    - What is the best way to start with [RF](title)
+    - how can i start with [Recurrent Neural Networks](title)
+    - starting point of [RNN](title)
+    - from where should i get start [Regression](title)
+    - what if want to be professional in [Linear Regression](title)
+    - What is the best way to get started with [Logistic Regression](title)
+    - What is the best way to start with [Regressor](title)
+    - how can i start with [Regularization](title)
+    - starting point of [Reinforcement Learning](title)
+    - from where should i get start [RL](title)
+    - what if want to be professional in [Restricted Boltzmann Machines](title)
+    - What is the best way to get started with [RBM](title)
+    - What is the best way to start with [Semi-Supervised Learning](title)
+    - how can i start with [Speech Recognition](title)
+    - starting point of [SR](title)
+    - from where should i get start [Supervised Learning](title)
+    - what if want to be professional in [SL](title)
+    - What is the best way to get started with [TensorFlow](title)
+    - What is the best way to start with [Time Series ](title)
+    - how can i start with [Time Series Data](title)
+    - starting point of [Testing ](title)
+    - from where should i get start [Testing Data](title)
+    - what if want to be professional in [Training Data](title)
+    - What is the best way to get started with [Transfer Learning](title)
+    - What is the best way to start with [Unsupervised Learning](title)
+    - how can i start with [UL](title)
+    - starting point of [Validation](title)
+    - from where should i get start [Variance](title)
+    - what if want to be professional in [keras](title)
+    - What is the best way to get started with [OpenCv](title)
+    - What is the best way to start with [Yolo](title)
+    - how can i start with [social distancing](title)
+    - starting point of [Flask](title)
+    - from where should i get start [python](title)
+    - what if want to be professional in [deep learning](title)
+    - What is the best way to get started with [keras](title)
+    - What is the best way to start with [tensorflow](title)
+    - how can i start with [OpenCv](title)
+    - starting point of [Yolo](title)
+    - from where should i get start [Mobile Net model](title)
+    - what if want to be professional in [Mask detection](title)
+    - What is the best way to get started with [face recognition & Mask detection ](title)
+    - What is the best way to start with [social distancing](title)
+    - how can i start with [Flask](title)
+    - starting point of [NLU](title)
+    - from where should i get start [Matplotib](title)
+    - what if want to be professional in [Selenuim](title)
+    - What is the best way to get started with [Web driver](title)
+    - What is the best way to start with [Os](title)
+    - how can i start with [Wget](title)
+    - starting point of [Pickle ](title)
+    - from where should i get start [Keras](title)
+    - what if want to be professional in [Numpy](title)
+    - What is the best way to get started with [Tensrflow](title)
+    - What is the best way to start with [Pandas](title)
+    - how can i start with [Nltk](title)
+    - starting point of [GDCM](title)
+    - from where should i get start [NLU](title)
+    - what if want to be professional in [anaconda](title)
+    - What is the best way to get started with [opencv](title)
+    - how can i start with [keras](title)
+    - starting point of [scikit-learn](title)
+    - from where should i get start [matplotlib](title)
+    - what if want to be professional in [dlib](title)
+    - What is the best way to get started with [numpy](title)
+    - What is the best way to start with [Accuracy](title)
+    - how can i start with [confusion matrix](title)
+    - from where should i get start [tensorflow](title)
+    - What is the best way to get started with [imutils](title)
+    - What is the best way to start with [numpy](title)
+    - how can i start with [opencv](title)
+    - starting point of [matplotlib](title)
+    - from where should i get start [scipy](title)
+    - what if want to be professional in [yolo](title)
+    - What is the best way to get started with [pygame](title)
+    - What is the best way to start with [python](title)
+    - how can i start with [data](title)
+- intent: version_of_ai_component
   examples: |
-    - what is the current version of [nlu](title)
-    - last version of  [data science](title)
-    - the version of  [nlp](title)
-    - and the version [ML](title)
-
-- intent : website_to_ai_component
+    - what is the current version of
+    - last version of
+    - the version of
+    - and the version
+- intent: website_to_ai_component
   examples: |
     - and the website of [nlu](title)
     - need more info on  [nlp](title)
     - official website of  [ML](title)
     - what about the website of [AI](title)
     - link to  [data science](title) website
-- intent : next_step_ai_component
+    - and the website of [Machine learning](title)
+    - need more info on [Supervised learning](title)
+    - link to [Semisupervised learning](title) website
+    - website of [Unsupervised learning](title)
+    - I need more info about [Reinforcement learning](title)
+    - the official website of [Algorithms machine learning](title)
+    - can you send me any websites or links of [Linear Regression](title)
+    - i can't find any informations about  [Logistic Regression](title)
+    - and the website of [Decision Tree](title)
+    - need more info on [ Support Vector Machine](title)
+    - link to [Naive Bayes](title) website
+    - website of [kNN (k- Nearest Neighbors)](title)
+    - I need more info about [K-Means](title)
+    - the official website of [Random Forest](title)
+    - can you send me any websites or links of [Dimensionality Reduction ](title)
+    - i can't find any informations about  [Principal component analysis ](title)
+    - and the website of [NLP](title)
+    - need more info on [deep learning](title)
+    - link to [Convolutional neural network](title) website
+    - website of [Input layer](title)
+    - I need more info about [Hidden Layer](title)
+    - the official website of [output layer](title)
+    - can you send me any websites or links of [ PCA](title)
+    - i can't find any informations about  [SVM](title)
+    - and the website of [CNN](title)
+    - need more info on [LSMN](title)
+    - link to [NLTK](title) website
+    - website of [spaCy](title)
+    - I need more info about [tokenization nlp](title)
+    - the official website of [stemming NLP](title)
+    - can you send me any websites or links of [lemmatization NLP](title)
+    - i can't find any informations about  [text vectorization](title)
+    - and the website of [Binary Term Frequency](title)
+    - need more info on [Bag of Words ](title)
+    - link to [BoW](title) website
+    - website of [normalized tf-idf](title)
+    - I need more info about [Word2Vec](title)
+    - the official website of [Continuous Bag of Words](title)
+    - can you send me any websites or links of [CBOW](title)
+    - i can't find any informations about  [Skip-Gram ](title)
+    - and the website of [SG](title)
+    - need more info on [cosine similarity](title)
+    - link to [soft cosine similarity](title) website
+    - website of [speech to text](title)
+    - I need more info about [STT](title)
+    - the official website of [Speech recognition](title)
+    - can you send me any websites or links of [text to speech](title)
+    - i can't find any informations about  [TTS](title)
+    - and the website of [librosa](title)
+    - need more info on [mfcc](title)
+    - link to [Mel Frequency Cepstral Coefficient ](title) website
+    - website of [OCR](title)
+    - I need more info about [pytesseract](title)
+    - the official website of [Deep Speech](title)
+    - can you send me any websites or links of [Batch size](title)
+    - i can't find any informations about  [epoch deep learning](title)
+    - and the website of [summary deep learning](title)
+    - need more info on [Model fitting](title)
+    - link to [model accuracy.](title) website
+    - website of [confusion matrix](title)
+    - I need more info about [Correlation matrix](title)
+    - the official website of [Precision](title)
+    - can you send me any websites or links of [Recall](title)
+    - i can't find any informations about  [F1 score](title)
+    - and the website of [accuracy](title)
+    - need more info on [vgg16](title)
+    - link to [ImageNet](title) website
+    - website of [wordnet](title)
+    - I need more info about [mobilenetv2](title)
+    - the official website of [ResNet](title)
+    - can you send me any websites or links of [Inception V3](title)
+    - i can't find any informations about  [Xception](title)
+    - and the website of [jaccard similarity](title)
+    - need more info on [stopwords](title)
+    - link to [Jaccard distance](title) website
+    - website of [clustering](title)
+    - I need more info about [topic modeling](title)
+    - the official website of [LDA](title)
+    - can you send me any websites or links of [image captioning](title)
+    - i can't find any informations about  [A/B Testing](title)
+    - and the website of [Activation Function](title)
+    - need more info on [Active Learning](title)
+    - link to [Algorithm](title) website
+    - website of [Annotation](title)
+    - I need more info about [Area Under the Curve ](title)
+    - the official website of [Artificial Intelligence](title)
+    - can you send me any websites or links of [Artificial Neural Networks](title)
+    - i can't find any informations about  [Association Rule Learning](title)
+    - and the website of [Autoencoder](title)
+    - need more info on [Automated Speech Recognition](title)
+    - link to [Batch](title) website
+    - website of [Bayes’s Theorem](title)
+    - I need more info about [Bias](title)
+    - the official website of [Boosting](title)
+    - can you send me any websites or links of [Chatbot](title)
+    - i can't find any informations about  [Classification](title)
+    - and the website of [Clustering](title)
+    - need more info on [Computer Vision](title)
+    - link to [Confidence Interval](title) website
+    - website of [Convolutional Neural Network](title)
+    - I need more info about [Cross-Validation](title)
+    - the official website of [Data](title)
+    - can you send me any websites or links of [Structured Data](title)
+    - i can't find any informations about  [Unstructured Data](title)
+    - and the website of [Data augmentation](title)
+    - need more info on [CNN](title)
+    - link to [CV](title) website
+    - website of [AI](title)
+    - I need more info about [ANN](title)
+    - the official website of [Decision Tree](title)
+    - can you send me any websites or links of [DT](title)
+    - i can't find any informations about  [Deep Blue](title)
+    - and the website of [Deep Learning](title)
+    - need more info on [DL](title)
+    - link to [Deep Reinforcement Learning](title) website
+    - website of [Embedding](title)
+    - I need more info about [Word Embedding](title)
+    - the official website of [Ensemble Methods](title)
+    - can you send me any websites or links of [Entropy](title)
+    - i can't find any informations about  [Epoch](title)
+    - and the website of [Feature](title)
+    - need more info on [Feature Selection](title)
+    - link to [Feature Learning](title) website
+    - website of [False Positive](title)
+    - I need more info about [False Negative](title)
+    - the official website of [Feed-Forward Networks](title)
+    - can you send me any websites or links of [Feed-Forward ](title)
+    - i can't find any informations about  [Feed-Forward  Neural Networks](title)
+    - and the website of [F-Score](title)
+    - need more info on [Garbage In](title)
+    - link to [Garbage Out](title) website
+    - website of [Garbage In and  Garbage Out](title)
+    - I need more info about [GIGO](title)
+    - the official website of [General Data Protection Regulation ](title)
+    - can you send me any websites or links of [GDPR](title)
+    - i can't find any informations about  [Genetic Algorithm](title)
+    - and the website of [Generative Adversarial Networks](title)
+    - need more info on [GANs](title)
+    - link to [GAN](title) website
+    - website of [Graphic Processing Unit](title)
+    - I need more info about [GPU](title)
+    - the official website of [Human in the Loop](title)
+    - can you send me any websites or links of [Human-in-the-Loop](title)
+    - i can't find any informations about  [HITL](title)
+    - and the website of [Hyperparameter](title)
+    - need more info on [Hyperparameter Tuning](title)
+    - link to [HT](title) website
+    - website of [Image Recognition](title)
+    - I need more info about [IR](title)
+    - the official website of [Inference](title)
+    - can you send me any websites or links of [Information Retrieval](title)
+    - i can't find any informations about  [IR](title)
+    - and the website of [Layer](title)
+    - need more info on [Hidden Layer](title)
+    - link to [Hidden Layers](title) website
+    - website of [Learning Rate](title)
+    - I need more info about [ Machine Learning](title)
+    - the official website of [ML](title)
+    - can you send me any websites or links of [Model](title)
+    - i can't find any informations about  [Monte Carlo](title)
+    - and the website of [Multi-Modal Learning](title)
+    - need more info on [Multi-Task Learning](title)
+    - website of [Named Entity Recognition](title)
+    - I need more info about [NER](title)
+    - the official website of [Natural Language Processing](title)
+    - can you send me any websites or links of [NLP](title)
+    - i can't find any informations about  [Neural Networks](title)
+    - and the website of [NN](title)
+    - need more info on [Neuron](title)
+    - link to [Node](title) website
+    - website of [Optical Character Recognition](title)
+    - I need more info about [OCR](title)
+    - the official website of [Optimization](title)
+    - can you send me any websites or links of [Overfitting](title)
+    - i can't find any informations about  [Underfitting](title)
+    - and the website of [Pooling ](title)
+    - need more info on [Max Pooling](title)
+    - link to [Precision](title) website
+    - website of [Prediction](title)
+    - I need more info about [Preprocessing](title)
+    - the official website of [Pre-trained Model](title)
+    - can you send me any websites or links of [Principal Component Analysis](title)
+    - i can't find any informations about  [PCA](title)
+    - and the website of [Random Forest](title)
+    - need more info on [RF](title)
+    - link to [Recurrent Neural Networks](title) website
+    - website of [RNN](title)
+    - I need more info about [Regression](title)
+    - the official website of [Linear Regression](title)
+    - can you send me any websites or links of [Logistic Regression](title)
+    - i can't find any informations about  [Regressor](title)
+    - and the website of [Regularization](title)
+    - need more info on [Reinforcement Learning](title)
+    - link to [RL](title) website
+    - website of [Restricted Boltzmann Machines](title)
+    - I need more info about [RBM](title)
+    - the official website of [Semi-Supervised Learning](title)
+    - can you send me any websites or links of [Speech Recognition](title)
+    - i can't find any informations about  [SR](title)
+    - and the website of [Supervised Learning](title)
+    - need more info on [SL](title)
+    - link to [TensorFlow](title) website
+    - website of [Time Series ](title)
+    - I need more info about [Time Series Data](title)
+    - the official website of [Testing ](title)
+    - can you send me any websites or links of [Testing Data](title)
+    - i can't find any informations about  [Training Data](title)
+    - and the website of [Transfer Learning](title)
+    - need more info on [Unsupervised Learning](title)
+    - link to [UL](title) website
+    - website of [Validation](title)
+    - I need more info about [Variance](title)
+    - the official website of [keras](title)
+    - can you send me any websites or links of [OpenCv](title)
+    - i can't find any informations about  [Yolo](title)
+    - and the website of [social distancing](title)
+    - need more info on [Flask](title)
+    - link to [python](title) website
+    - website of [deep learning](title)
+    - I need more info about [keras](title)
+    - the official website of [tensorflow](title)
+    - and the website of [Mobile Net model](title)
+    - need more info on [Mask detection](title)
+    - link to [face recognition & Mask detection ](title) website
+    - website of [social distancing](title)
+    - I need more info about [Flask](title)
+    - the official website of [NLU](title)
+    - can you send me any websites or links of [Matplotib](title)
+    - i can't find any informations about  [Selenuim](title)
+    - and the website of [Web driver](title)
+    - need more info on [Os](title)
+    - link to [Wget](title) website
+    - website of [Pickle ](title)
+    - I need more info about [Keras](title)
+    - the official website of [Numpy](title)
+    - can you send me any websites or links of [Tensrflow](title)
+    - i can't find any informations about  [Pandas](title)
+    - and the website of [Nltk](title)
+    - need more info on [GDCM](title)
+    - link to [NLU](title) website
+    - website of [anaconda](title)
+    - I need more info about [opencv](title)
+    - can you send me any websites or links of [keras](title)
+    - i can't find any informations about  [scikit-learn](title)
+    - and the website of [matplotlib](title)
+    - need more info on [dlib](title)
+    - link to [numpy](title) website
+    - website of [Accuracy](title)
+    - I need more info about [confusion matrix](title)
+    - can you send me any websites or links of [tensorflow](title)
+    - i can't find any informations about  [keras](title)
+    - and the website of [imutils](title)
+    - need more info on [numpy](title)
+    - link to [opencv](title) website
+    - website of [matplotlib](title)
+    - I need more info about [scipy](title)
+    - the official website of [yolo](title)
+    - can you send me any websites or links of [pygame](title)
+    - i can't find any informations about  [python](title)
+    - need more infor about [nlp](title)
+- intent: next_step_ai_component
   examples: |
     - next step after [nlu](title)
     - after  [nlp](title)
-    - once it done with [ML](title) , what should i do 
+    - once it done with [ML](title) , what should i do
     - what do you propose after [AI](title)
-- intent : architecture_of_ai_component
+    - what is next step after [Machine learning](title)
+    - after [Supervised learning](title)
+    - what do you propose after [Semisupervised learning](title)
+    - and what would be the next step after [Unsupervised learning](title)
+    - what should i do after learning [Reinforcement learning](title)
+    - what do you propose to do after [Algorithms machine learning](title)
+    - what is next step after [Linear Regression](title)
+    - after [Logistic Regression](title)
+    - what do you propose after [Decision Tree](title)
+    - and what would be the next step after [ Support Vector Machine](title)
+    - what should i do after learning [Naive Bayes](title)
+    - what do you propose to do after [kNN (k- Nearest Neighbors)](title)
+    - what is next step after [K-Means](title)
+    - after [Random Forest](title)
+    - what do you propose after [Dimensionality Reduction ](title)
+    - and what would be the next step after [Principal component analysis ](title)
+    - what should i do after learning [NLP](title)
+    - what do you propose to do after [deep learning](title)
+    - what is next step after [Convolutional neural network](title)
+    - after [Input layer](title)
+    - what do you propose after [Hidden Layer](title)
+    - and what would be the next step after [output layer](title)
+    - what should i do after learning [ PCA](title)
+    - what do you propose to do after [SVM](title)
+    - what is next step after [CNN](title)
+    - after [LSMN](title)
+    - what do you propose after [NLTK](title)
+    - and what would be the next step after [spaCy](title)
+    - what should i do after learning [tokenization nlp](title)
+    - what do you propose to do after [stemming NLP](title)
+    - what is next step after [lemmatization NLP](title)
+    - after [text vectorization](title)
+    - what do you propose after [Binary Term Frequency](title)
+    - and what would be the next step after [Bag of Words ](title)
+    - what should i do after learning [BoW](title)
+    - what do you propose to do after [normalized tf-idf](title)
+    - what is next step after [Word2Vec](title)
+    - after [Continuous Bag of Words](title)
+    - what do you propose after [CBOW](title)
+    - and what would be the next step after [Skip-Gram ](title)
+    - what should i do after learning [SG](title)
+    - what do you propose to do after [cosine similarity](title)
+    - what is next step after [soft cosine similarity](title)
+    - after [speech to text](title)
+    - what do you propose after [STT](title)
+    - and what would be the next step after [Speech recognition](title)
+    - what should i do after learning [text to speech](title)
+    - what do you propose to do after [TTS](title)
+    - what is next step after [librosa](title)
+    - after [mfcc](title)
+    - what do you propose after [Mel Frequency Cepstral Coefficient ](title)
+    - and what would be the next step after [OCR](title)
+    - what should i do after learning [pytesseract](title)
+    - what do you propose to do after [Deep Speech](title)
+    - what is next step after [Batch size](title)
+    - after [epoch deep learning](title)
+    - what do you propose after [summary deep learning](title)
+    - and what would be the next step after [Model fitting](title)
+    - what should i do after learning [model accuracy.](title)
+    - what do you propose to do after [confusion matrix](title)
+    - what is next step after [Correlation matrix](title)
+    - after [Precision](title)
+    - what do you propose after [Recall](title)
+    - and what would be the next step after [F1 score](title)
+    - what should i do after learning [accuracy](title)
+    - what do you propose to do after [vgg16](title)
+    - what is next step after [ImageNet](title)
+    - after [wordnet](title)
+    - what do you propose after [mobilenetv2](title)
+    - and what would be the next step after [ResNet](title)
+    - what should i do after learning [Inception V3](title)
+    - what do you propose to do after [Xception](title)
+    - what is next step after [jaccard similarity](title)
+    - after [stopwords](title)
+    - what do you propose after [Jaccard distance](title)
+    - and what would be the next step after [clustering](title)
+    - what should i do after learning [topic modeling](title)
+    - what do you propose to do after [LDA](title)
+    - what is next step after [image captioning](title)
+    - after [A/B Testing](title)
+    - what do you propose after [Activation Function](title)
+    - and what would be the next step after [Active Learning](title)
+    - what should i do after learning [Algorithm](title)
+    - what do you propose to do after [Annotation](title)
+    - what is next step after [Area Under the Curve ](title)
+    - after [Artificial Intelligence](title)
+    - what do you propose after [Artificial Neural Networks](title)
+    - and what would be the next step after [Association Rule Learning](title)
+    - what should i do after learning [Autoencoder](title)
+    - what do you propose to do after [Automated Speech Recognition](title)
+    - what is next step after [Batch](title)
+    - after [Bayes’s Theorem](title)
+    - what do you propose after [Bias](title)
+    - and what would be the next step after [Boosting](title)
+    - what should i do after learning [Chatbot](title)
+    - what do you propose to do after [Classification](title)
+    - what is next step after [Clustering](title)
+    - after [Computer Vision](title)
+    - what do you propose after [Confidence Interval](title)
+    - and what would be the next step after [Convolutional Neural Network](title)
+    - what should i do after learning [Cross-Validation](title)
+    - what do you propose to do after [Data](title)
+    - what is next step after [Structured Data](title)
+    - after [Unstructured Data](title)
+    - what do you propose after [Data augmentation](title)
+    - and what would be the next step after [CNN](title)
+    - what should i do after learning [CV](title)
+    - what do you propose to do after [AI](title)
+    - what is next step after [ANN](title)
+    - after [Decision Tree](title)
+    - what do you propose after [DT](title)
+    - and what would be the next step after [Deep Blue](title)
+    - what should i do after learning [Deep Learning](title)
+    - what do you propose to do after [DL](title)
+    - what is next step after [Deep Reinforcement Learning](title)
+    - after [Embedding](title)
+    - what do you propose after [Word Embedding](title)
+    - and what would be the next step after [Ensemble Methods](title)
+    - what should i do after learning [Entropy](title)
+    - what do you propose to do after [Epoch](title)
+    - what is next step after [Feature](title)
+    - after [Feature Selection](title)
+    - what do you propose after [Feature Learning](title)
+    - and what would be the next step after [False Positive](title)
+    - what should i do after learning [False Negative](title)
+    - what do you propose to do after [Feed-Forward Networks](title)
+    - what is next step after [Feed-Forward ](title)
+    - after [Feed-Forward  Neural Networks](title)
+    - what do you propose after [F-Score](title)
+    - and what would be the next step after [Garbage In](title)
+    - what should i do after learning [Garbage Out](title)
+    - what do you propose to do after [Garbage In and  Garbage Out](title)
+    - what is next step after [GIGO](title)
+    - after [General Data Protection Regulation ](title)
+    - what do you propose after [GDPR](title)
+    - and what would be the next step after [Genetic Algorithm](title)
+    - what should i do after learning [Generative Adversarial Networks](title)
+    - what do you propose to do after [GANs](title)
+    - what is next step after [GAN](title)
+    - after [Graphic Processing Unit](title)
+    - what do you propose after [GPU](title)
+    - and what would be the next step after [Human in the Loop](title)
+    - what should i do after learning [Human-in-the-Loop](title)
+    - what do you propose to do after [HITL](title)
+    - what is next step after [Hyperparameter](title)
+    - after [Hyperparameter Tuning](title)
+    - what do you propose after [HT](title)
+    - and what would be the next step after [Image Recognition](title)
+    - what should i do after learning [IR](title)
+    - what do you propose to do after [Inference](title)
+    - what is next step after [Information Retrieval](title)
+    - after [IR](title)
+    - what do you propose after [Layer](title)
+    - and what would be the next step after [Hidden Layer](title)
+    - what should i do after learning [Hidden Layers](title)
+    - what do you propose to do after [Learning Rate](title)
+    - what is next step after [ Machine Learning](title)
+    - after [ML](title)
+    - what do you propose after [Model](title)
+    - and what would be the next step after [Monte Carlo](title)
+    - what should i do after learning [Multi-Modal Learning](title)
+    - what do you propose to do after [Multi-Task Learning](title)
+    - what is next step after [Naive Bayes](title)
+    - after [Named Entity Recognition](title)
+    - what do you propose after [NER](title)
+    - and what would be the next step after [Natural Language Processing](title)
+    - what do you propose to do after [Neural Networks](title)
+    - what is next step after [NN](title)
+    - after [Neuron](title)
+    - what do you propose after [Node](title)
+    - and what would be the next step after [Optical Character Recognition](title)
+    - what should i do after learning [OCR](title)
+    - what do you propose to do after [Optimization](title)
+    - what is next step after [Overfitting](title)
+    - after [Underfitting](title)
+    - what do you propose after [Pooling ](title)
+    - and what would be the next step after [Max Pooling](title)
+    - what should i do after learning [Precision](title)
+    - what do you propose to do after [Prediction](title)
+    - what is next step after [Preprocessing](title)
+    - after [Pre-trained Model](title)
+    - what do you propose after [Principal Component Analysis](title)
+    - and what would be the next step after [PCA](title)
+    - what should i do after learning [Random Forest](title)
+    - what do you propose to do after [RF](title)
+    - what is next step after [Recurrent Neural Networks](title)
+    - after [RNN](title)
+    - what do you propose after [Regression](title)
+    - and what would be the next step after [Linear Regression](title)
+    - what should i do after learning [Logistic Regression](title)
+    - what do you propose to do after [Regressor](title)
+    - what is next step after [Regularization](title)
+    - after [Reinforcement Learning](title)
+    - what do you propose after [RL](title)
+    - and what would be the next step after [Restricted Boltzmann Machines](title)
+    - what should i do after learning [RBM](title)
+    - what do you propose to do after [Semi-Supervised Learning](title)
+    - what is next step after [Speech Recognition](title)
+    - after [SR](title)
+    - what do you propose after [Supervised Learning](title)
+    - and what would be the next step after [SL](title)
+    - what should i do after learning [TensorFlow](title)
+    - what do you propose to do after [Time Series ](title)
+    - what is next step after [Time Series Data](title)
+    - after [Testing ](title)
+    - what do you propose after [Testing Data](title)
+    - and what would be the next step after [Training Data](title)
+    - what should i do after learning [Transfer Learning](title)
+    - what do you propose to do after [Unsupervised Learning](title)
+    - what is next step after [UL](title)
+    - after [Validation](title)
+    - what do you propose after [Variance](title)
+    - and what would be the next step after [keras](title)
+    - what should i do after learning [OpenCv](title)
+    - what do you propose to do after [Yolo](title)
+    - what is next step after [social distancing](title)
+    - after [Flask](title)
+    - what do you propose after [python](title)
+    - and what would be the next step after [deep learning](title)
+    - what should i do after learning [keras](title)
+    - what do you propose to do after [tensorflow](title)
+    - what is next step after [OpenCv](title)
+    - after [Yolo](title)
+    - what do you propose after [Mobile Net model](title)
+    - and what would be the next step after [Mask detection](title)
+    - what should i do after learning [face recognition & Mask detection ](title)
+    - what do you propose to do after [social distancing](title)
+    - what is next step after [Flask](title)
+    - after [NLU](title)
+    - what do you propose after [Matplotib](title)
+    - and what would be the next step after [Selenuim](title)
+    - what should i do after learning [Web driver](title)
+    - what do you propose to do after [Os](title)
+    - what is next step after [Wget](title)
+    - after [Pickle ](title)
+    - what do you propose after [Keras](title)
+    - and what would be the next step after [Numpy](title)
+    - what should i do after learning [Tensrflow](title)
+    - what do you propose to do after [Pandas](title)
+    - what is next step after [Nltk](title)
+    - after [GDCM](title)
+    - what do you propose after [NLU](title)
+    - and what would be the next step after [anaconda](title)
+    - what should i do after learning [opencv](title)
+    - what is next step after [keras](title)
+    - after [scikit-learn](title)
+    - what do you propose after [matplotlib](title)
+    - and what would be the next step after [dlib](title)
+    - what should i do after learning [numpy](title)
+    - what do you propose to do after [Accuracy](title)
+    - what is next step after [confusion matrix](title)
+    - what do you propose after [tensorflow](title)
+    - what should i do after learning [imutils](title)
+    - what do you propose to do after [numpy](title)
+    - what is next step after [opencv](title)
+    - after [matplotlib](title)
+    - what do you propose after [scipy](title)
+    - and what would be the next step after [yolo](title)
+    - what should i do after learning [pygame](title)
+    - what do you propose to do after [python](title)
+    - and what is the next step before [deep learning](title)
+- intent: architecture_of_ai_component
   examples: |
     - any images for  [nlu](title) explication
     - simple definition of  [nlp](title)
     - what is the architecture of [ML](title)
     - an image for  [AI](title)
+    - any images for [Machine learning](title) explication
+    - simple definition of [Supervised learning](title)
+    - what is the architecture of [Semisupervised learning](title)
+    - It is not clear about [Unsupervised learning](title)
+    - Can you send me an image for [Reinforcement learning](title)
+    - a picture would help me understand better [Algorithms machine learning](title)
+    - more explanation about [Linear Regression](title) please
+    - ok, tell me more about [Logistic Regression](title) please
+    - any images for [Decision Tree](title) explication
+    - simple definition of [ Support Vector Machine](title)
+    - what is the architecture of [Naive Bayes](title)
+    - It is not clear about [kNN (k- Nearest Neighbors)](title)
+    - Can you send me an image for [K-Means](title)
+    - a picture would help me understand better [Random Forest](title)
+    - more explanation about [Dimensionality Reduction ](title) please
+    - ok, tell me more about [Principal component analysis ](title) please
+    - any images for [NLP](title) explication
+    - simple definition of [deep learning](title)
+    - what is the architecture of [Convolutional neural network](title)
+    - It is not clear about [Input layer](title)
+    - Can you send me an image for [Hidden Layer](title)
+    - a picture would help me understand better [output layer](title)
+    - more explanation about [ PCA](title) please
+    - ok, tell me more about [SVM](title) please
+    - any images for [CNN](title) explication
+    - simple definition of [LSMN](title)
+    - what is the architecture of [NLTK](title)
+    - It is not clear about [spaCy](title)
+    - Can you send me an image for [tokenization nlp](title)
+    - a picture would help me understand better [stemming NLP](title)
+    - more explanation about [lemmatization NLP](title) please
+    - ok, tell me more about [text vectorization](title) please
+    - any images for [Binary Term Frequency](title) explication
+    - simple definition of [Bag of Words ](title)
+    - what is the architecture of [BoW](title)
+    - It is not clear about [normalized tf-idf](title)
+    - Can you send me an image for [Word2Vec](title)
+    - a picture would help me understand better [Continuous Bag of Words](title)
+    - more explanation about [CBOW](title) please
+    - ok, tell me more about [Skip-Gram ](title) please
+    - any images for [SG](title) explication
+    - simple definition of [cosine similarity](title)
+    - what is the architecture of [soft cosine similarity](title)
+    - It is not clear about [speech to text](title)
+    - Can you send me an image for [STT](title)
+    - a picture would help me understand better [Speech recognition](title)
+    - more explanation about [text to speech](title) please
+    - ok, tell me more about [TTS](title) please
+    - any images for [librosa](title) explication
+    - simple definition of [mfcc](title)
+    - what is the architecture of [Mel Frequency Cepstral Coefficient ](title)
+    - It is not clear about [OCR](title)
+    - Can you send me an image for [pytesseract](title)
+    - a picture would help me understand better [Deep Speech](title)
+    - more explanation about [Batch size](title) please
+    - ok, tell me more about [epoch deep learning](title) please
+    - any images for [summary deep learning](title) explication
+    - simple definition of [Model fitting](title)
+    - what is the architecture of [model accuracy.](title)
+    - It is not clear about [confusion matrix](title)
+    - Can you send me an image for [Correlation matrix](title)
+    - a picture would help me understand better [Precision](title)
+    - more explanation about [Recall](title) please
+    - ok, tell me more about [F1 score](title) please
+    - any images for [accuracy](title) explication
+    - simple definition of [vgg16](title)
+    - what is the architecture of [ImageNet](title)
+    - It is not clear about [wordnet](title)
+    - Can you send me an image for [mobilenetv2](title)
+    - a picture would help me understand better [ResNet](title)
+    - more explanation about [Inception V3](title) please
+    - ok, tell me more about [Xception](title) please
+    - any images for [jaccard similarity](title) explication
+    - simple definition of [stopwords](title)
+    - what is the architecture of [Jaccard distance](title)
+    - It is not clear about [clustering](title)
+    - Can you send me an image for [topic modeling](title)
+    - a picture would help me understand better [LDA](title)
+    - more explanation about [image captioning](title) please
+    - ok, tell me more about [A/B Testing](title) please
+    - any images for [Activation Function](title) explication
+    - simple definition of [Active Learning](title)
+    - what is the architecture of [Algorithm](title)
+    - It is not clear about [Annotation](title)
+    - Can you send me an image for [Area Under the Curve ](title)
+    - a picture would help me understand better [Artificial Intelligence](title)
+    - more explanation about [Artificial Neural Networks](title) please
+    - ok, tell me more about [Association Rule Learning](title) please
+    - any images for [Autoencoder](title) explication
+    - simple definition of [Automated Speech Recognition](title)
+    - what is the architecture of [Batch](title)
+    - It is not clear about [Bayes’s Theorem](title)
+    - Can you send me an image for [Bias](title)
+    - a picture would help me understand better [Boosting](title)
+    - more explanation about [Chatbot](title) please
+    - ok, tell me more about [Classification](title) please
+    - any images for [Clustering](title) explication
+    - simple definition of [Computer Vision](title)
+    - what is the architecture of [Confidence Interval](title)
+    - It is not clear about [Convolutional Neural Network](title)
+    - Can you send me an image for [Cross-Validation](title)
+    - a picture would help me understand better [Data](title)
+    - more explanation about [Structured Data](title) please
+    - ok, tell me more about [Unstructured Data](title) please
+    - any images for [Data augmentation](title) explication
+    - simple definition of [CNN](title)
+    - what is the architecture of [CV](title)
+    - It is not clear about [AI](title)
+    - Can you send me an image for [ANN](title)
+    - a picture would help me understand better [Decision Tree](title)
+    - more explanation about [DT](title) please
+    - ok, tell me more about [Deep Blue](title) please
+    - any images for [Deep Learning](title) explication
+    - simple definition of [DL](title)
+    - what is the architecture of [Deep Reinforcement Learning](title)
+    - It is not clear about [Embedding](title)
+    - Can you send me an image for [Word Embedding](title)
+    - a picture would help me understand better [Ensemble Methods](title)
+    - more explanation about [Entropy](title) please
+    - ok, tell me more about [Epoch](title) please
+    - any images for [Feature](title) explication
+    - simple definition of [Feature Selection](title)
+    - what is the architecture of [Feature Learning](title)
+    - It is not clear about [False Positive](title)
+    - Can you send me an image for [False Negative](title)
+    - a picture would help me understand better [Feed-Forward Networks](title)
+    - more explanation about [Feed-Forward ](title) please
+    - ok, tell me more about [Feed-Forward  Neural Networks](title) please
+    - any images for [F-Score](title) explication
+    - simple definition of [Garbage In](title)
+    - what is the architecture of [Garbage Out](title)
+    - It is not clear about [Garbage In and  Garbage Out](title)
+    - Can you send me an image for [GIGO](title)
+    - a picture would help me understand better [General Data Protection Regulation ](title)
+    - more explanation about [GDPR](title) please
+    - ok, tell me more about [Genetic Algorithm](title) please
+    - any images for [Generative Adversarial Networks](title) explication
+    - simple definition of [GANs](title)
+    - what is the architecture of [GAN](title)
+    - It is not clear about [Graphic Processing Unit](title)
+    - Can you send me an image for [GPU](title)
+    - a picture would help me understand better [Human in the Loop](title)
+    - more explanation about [Human-in-the-Loop](title) please
+    - ok, tell me more about [HITL](title) please
+    - any images for [Hyperparameter](title) explication
+    - simple definition of [Hyperparameter Tuning](title)
+    - what is the architecture of [HT](title)
+    - It is not clear about [Image Recognition](title)
+    - Can you send me an image for [IR](title)
+    - a picture would help me understand better [Inference](title)
+    - more explanation about [Information Retrieval](title) please
+    - ok, tell me more about [IR](title) please
+    - any images for [Layer](title) explication
+    - simple definition of [Hidden Layer](title)
+    - what is the architecture of [Hidden Layers](title)
+    - It is not clear about [Learning Rate](title)
+    - Can you send me an image for [ Machine Learning](title)
+    - a picture would help me understand better [ML](title)
+    - more explanation about [Model](title) please
+    - ok, tell me more about [Monte Carlo](title) please
+    - any images for [Multi-Modal Learning](title) explication
+    - simple definition of [Multi-Task Learning](title)
+    - It is not clear about [Named Entity Recognition](title)
+    - Can you send me an image for [NER](title)
+    - a picture would help me understand better [Natural Language Processing](title)
+    - more explanation about [NLP](title) please
+    - ok, tell me more about [Neural Networks](title) please
+    - any images for [NN](title) explication
+    - simple definition of [Neuron](title)
+    - what is the architecture of [Node](title)
+    - It is not clear about [Optical Character Recognition](title)
+    - Can you send me an image for [OCR](title)
+    - a picture would help me understand better [Optimization](title)
+    - more explanation about [Overfitting](title) please
+    - ok, tell me more about [Underfitting](title) please
+    - any images for [Pooling ](title) explication
+    - simple definition of [Max Pooling](title)
+    - what is the architecture of [Precision](title)
+    - It is not clear about [Prediction](title)
+    - Can you send me an image for [Preprocessing](title)
+    - a picture would help me understand better [Pre-trained Model](title)
+    - more explanation about [Principal Component Analysis](title) please
+    - ok, tell me more about [PCA](title) please
+    - any images for [Random Forest](title) explication
+    - simple definition of [RF](title)
+    - what is the architecture of [Recurrent Neural Networks](title)
+    - It is not clear about [RNN](title)
+    - Can you send me an image for [Regression](title)
+    - a picture would help me understand better [Linear Regression](title)
+    - more explanation about [Logistic Regression](title) please
+    - ok, tell me more about [Regressor](title) please
+    - any images for [Regularization](title) explication
+    - simple definition of [Reinforcement Learning](title)
+    - what is the architecture of [RL](title)
+    - It is not clear about [Restricted Boltzmann Machines](title)
+    - Can you send me an image for [RBM](title)
+    - a picture would help me understand better [Semi-Supervised Learning](title)
+    - more explanation about [Speech Recognition](title) please
+    - ok, tell me more about [SR](title) please
+    - any images for [Supervised Learning](title) explication
+    - simple definition of [SL](title)
+    - what is the architecture of [TensorFlow](title)
+    - It is not clear about [Time Series ](title)
+    - Can you send me an image for [Time Series Data](title)
+    - a picture would help me understand better [Testing ](title)
+    - more explanation about [Testing Data](title) please
+    - ok, tell me more about [Training Data](title) please
+    - any images for [Transfer Learning](title) explication
+    - simple definition of [Unsupervised Learning](title)
+    - what is the architecture of [UL](title)
+    - It is not clear about [Validation](title)
+    - Can you send me an image for [Variance](title)
+    - a picture would help me understand better [keras](title)
+    - more explanation about [OpenCv](title) please
+    - ok, tell me more about [Yolo](title) please
+    - any images for [social distancing](title) explication
+    - simple definition of [Flask](title)
+    - what is the architecture of [python](title)
+    - It is not clear about [deep learning](title)
+    - Can you send me an image for [keras](title)
+    - a picture would help me understand better [tensorflow](title)
+    - any images for [Mobile Net model](title) explication
+    - simple definition of [Mask detection](title)
+    - what is the architecture of [face recognition & Mask detection ](title)
+    - It is not clear about [social distancing](title)
+    - Can you send me an image for [Flask](title)
+    - a picture would help me understand better [NLU](title)
+    - more explanation about [Matplotib](title) please
+    - ok, tell me more about [Selenuim](title) please
+    - any images for [Web driver](title) explication
+    - simple definition of [Os](title)
+    - what is the architecture of [Wget](title)
+    - It is not clear about [Pickle ](title)
+    - Can you send me an image for [Keras](title)
+    - a picture would help me understand better [Numpy](title)
+    - more explanation about [Tensrflow](title) please
+    - ok, tell me more about [Pandas](title) please
+    - any images for [Nltk](title) explication
+    - simple definition of [GDCM](title)
+    - what is the architecture of [NLU](title)
+    - It is not clear about [anaconda](title)
+    - Can you send me an image for [opencv](title)
+    - more explanation about [keras](title) please
+    - ok, tell me more about [scikit-learn](title) please
+    - any images for [matplotlib](title) explication
+    - simple definition of [dlib](title)
+    - what is the architecture of [numpy](title)
+    - It is not clear about [Accuracy](title)
+    - Can you send me an image for [confusion matrix](title)
+    - more explanation about [tensorflow](title) please
+    - ok, tell me more about [keras](title) please
+    - any images for [imutils](title) explication
+    - simple definition of [numpy](title)
+    - what is the architecture of [opencv](title)
+    - It is not clear about [matplotlib](title)
+    - Can you send me an image for [scipy](title)
+    - a picture would help me understand better [yolo](title)
+    - more explanation about [pygame](title) please
+    - ok, tell me more about [python](title) please
+    - any image foor [NLP](title).
+    - an image for [cnN](title)
+    - image for [Nlp](title)
+    - image for [NLP](title)
+    - image for [nlp](title)
+    - any architecture for [nlP](title)
+    - any image for [ML](title)
+    - any  image for [data sciece](title)
+    - any  image
+    - anu image for [nlp](title)
+- intent: impressed_by_AI
+  examples: |
+    - I really like AI
+    - i like artificial intelligence
+    - I'm a big fan of AI
+    - AI is something I really enjoy.
+    - i really love artificial
+    - i reall like AI
+- intent: chat_language
+  examples: |
+    - do you speak arabic
+    - do you speak frensh
+    - you speak just english
+    - do you speak spanish
+    - do you speak other languages
+    - bonjour
+    - bonsoir
+    - hola
+    - what other languages are you fluent in?
+    - dit moi
+- intent: jobs
+  examples: |
+    - i need a job
