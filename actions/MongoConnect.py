@@ -22,7 +22,6 @@ def getAiInfoFromMongo(title):
     ai = {}
     for x in collection.find({"Title" :{ "$regex" : title , "$options": "imns"}}):
         ai = x
-
     #print("Connection closed") 
     return (ai)
     print(ai)

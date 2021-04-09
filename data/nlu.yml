@@ -337,6 +337,7 @@ nlu:
     - registering link please !
     - link to register please !
     - link  to register
+    - link for the webinar
 - intent: webinar_cost
   examples: |
     - How much will it cost?
