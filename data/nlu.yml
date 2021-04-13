@@ -23,6 +23,7 @@ nlu:
     - hi their
     - hi theire
     - hey sara
+    - Hi
 - intent: name_entry
   examples: |
     - my name is [radhwen](name)
@@ -76,6 +77,7 @@ nlu:
     - my name is [ala](name)
     - salim my name is [salim](name)
     - yes my name is [salim](name)
+    - my name is [sami](name)
 - intent: fine
   examples: |
     - how are you ?
@@ -93,6 +95,8 @@ nlu:
     - fine and you
     - dine and you
     - fin and you
+    - haw are you
+    - i m fine and you
 - intent: revile
   examples: |
     - curse
@@ -169,6 +173,7 @@ nlu:
     - wher is tassahil
     - and wher is tsaahil
     - just  tell me where is tassahil
+    - where is tassahil center ?
 - intent: inform_definition
   examples: |
     - what is tassahil?
@@ -403,6 +408,9 @@ nlu:
     - whhat is the next webinar
     - and what is the next webinar
     - whatis the next webinar
+    - what is the next webinar
+    - i am asking about training
+    - i m ask abot traning
 - intent: goodbye
   examples: |
     - good afternoon
@@ -873,6 +881,13 @@ nlu:
     - what is [data science](title)
     - what is [mahcine learning](title)
     - i don't understand [rnn](title)
+    - what is [cnn](title) ?
+    - [tensorflow](title) what is ?
+    - what is [deep lerning](title)
+    - [stt](title)
+    - [STT](name)[STT](title)
+    - [Spech to text](title)
+    - do you know [keras](title)
 - intent: start_with_ai_component
   examples: |
     - how can i start with [nlu](title)
