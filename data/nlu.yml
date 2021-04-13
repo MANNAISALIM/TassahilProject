@@ -885,7 +885,7 @@ nlu:
     - [tensorflow](title) what is ?
     - what is [deep lerning](title)
     - [stt](title)
-    - [STT](name)[STT](title)
+    - [STT](title)[STT](name)
     - [Spech to text](title)
     - do you know [keras](title)
 - intent: start_with_ai_component
@@ -1983,6 +1983,7 @@ nlu:
     - any image for [data science](title)
     - any image for [dl](title)
     - ok any idea about [machine](title) learning
+    - thanks i want to know some information from [IA](title)
 - intent: impressed_by_AI
   examples: |
     - I really like AI
