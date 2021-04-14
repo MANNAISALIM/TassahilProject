@@ -24,6 +24,7 @@ nlu:
     - hi theire
     - hey sara
     - Hi
+    - Hello sara
 - intent: name_entry
   examples: |
     - my name is [radhwen](name)
@@ -140,6 +141,7 @@ nlu:
     - el me jok
     - i need a joke
     - yes  can you tell me a joke
+    - any jokes
 - intent: inform_location
   examples: |
     - and where is tassahil center?
@@ -437,6 +439,7 @@ nlu:
     - thanks i relly appreciate it
     - ok then bye
     - bye sara
+    - bye then
 - intent: affirm
   examples: |
     - yes
@@ -601,6 +604,7 @@ nlu:
     - hhhhhhhhhhhhhhhhhhhhh
     - hhhhhhh
     - hhhhhhhh
+    - hhhhhhhhhhhhhhhhhhhhhh
 - intent: definition_of_ai_component
   examples: |
     - tell me what is [Artificial Intelligence](title)
@@ -885,9 +889,12 @@ nlu:
     - [tensorflow](title) what is ?
     - what is [deep lerning](title)
     - [stt](title)
-    - [STT](title)[STT](name)
+    - [STT](name)[STT](title)
     - [Spech to text](title)
     - do you know [keras](title)
+    - wat is [deep.learning](title)
+    - what is [machine learning](title)
+    - what is [input layer](title)
 - intent: start_with_ai_component
   examples: |
     - how can i start with [nlu](title)
@@ -1703,6 +1710,7 @@ nlu:
     - and what is the next step before [deep learning](title)
     - whhat is the next [AI](title)
     - what is after [nlp](title)
+    - what can i do afetr [cnn](title)
 - intent: architecture_of_ai_component
   examples: |
     - any images for  [nlu](title) explication
