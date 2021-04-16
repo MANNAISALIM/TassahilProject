@@ -208,6 +208,7 @@ nlu:
     - ok ad what is the website of tassahi
     - what tassahi
     - i need more  ifirmationa bout tassahil
+    - can you tell me about tasahil center
 - intent: inform_services
   examples: |
     - what is your services ?
@@ -248,6 +249,8 @@ nlu:
     - and what the next webinar will be about
     - can' i ask you what the next webinar will cover
     - ok then what is the  next webinar name
+    - what about webinar ?
+    - What do you want to call me ?
 - intent: webinar_date
   examples: |
     - whene the webinar will begin ?
@@ -517,6 +520,8 @@ nlu:
     - i fine tank you
     - im fine
     - goood
+    - Im fine thinks
+    - okay
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -561,6 +566,7 @@ nlu:
     - sara
     - hi sara
     - and what is your name
+    - What's your name
 - intent: fromwekipedia
   examples: |
     - what is hello world programme ?
@@ -889,12 +895,16 @@ nlu:
     - [tensorflow](title) what is ?
     - what is [deep lerning](title)
     - [stt](title)
-    - [STT](name)[STT](title)
+    - [STT](title)[STT](name)
     - [Spech to text](title)
     - do you know [keras](title)
     - wat is [deep.learning](title)
     - what is [machine learning](title)
     - what is [input layer](title)
+    - what you know about [AI](title)
+    - what about [cnn](title)
+    - can you tell me about [IA](title)
+    - can you tell me about [AI](title)
 - intent: start_with_ai_component
   examples: |
     - how can i start with [nlu](title)
@@ -1168,6 +1178,8 @@ nlu:
     - who can i start with [python](title)
     - how to start with [python](title)
     - how can i start  with [pythoon](title)
+    - how can i learn [python](title)
+    - how can i learn about [it](title)
 - intent: version_of_ai_component
   examples: |
     - what is the current version of
