@@ -25,6 +25,7 @@ nlu:
     - hey sara
     - Hi
     - Hello sara
+    - hello sara
 - intent: name_entry
   examples: |
     - my name is [radhwen](name)
@@ -79,6 +80,13 @@ nlu:
     - salim my name is [salim](name)
     - yes my name is [salim](name)
     - my name is [sami](name)
+    - salim
+    - my namz is [saladnf](name)
+    - Call me [badreddine](name)
+    - my freinds call me [rathwen](name)
+    - [abdellaltif](name)
+    - you can call me abdou
+    - abdou
 - intent: fine
   examples: |
     - how are you ?
@@ -98,6 +106,10 @@ nlu:
     - fin and you
     - haw are you
     - i m fine and you
+    - I'm fine ans you
+    - fine you ?
+    - i'm fin and you
+    - how r u ?
 - intent: revile
   examples: |
     - curse
@@ -114,6 +126,7 @@ nlu:
     - cuk you
     - bitch
     - hi fucken dtupred
+    - how does artifical intekkigence work ?
 - intent: jokes
   examples: |
     - tell me a joke
@@ -209,6 +222,8 @@ nlu:
     - what tassahi
     - i need more  ifirmationa bout tassahil
     - can you tell me about tasahil center
+    - What do you think about tassahil
+    - what is tasahil center
 - intent: inform_services
   examples: |
     - what is your services ?
@@ -337,6 +352,8 @@ nlu:
     - what domain we will discover in this webinar
     - is it for IOT or AI or something else!
     - what about the domain!
+    - in what doamin the webinar will be
+    - in what doain it will be
 - intent: webinar_content
   examples: |
     - the content of the webinar
@@ -352,6 +369,7 @@ nlu:
     - is the webinar will be a workshop or a presentation
     - any resources are required !
     - what is the content of the webinar
+    - ok the  wha is it content
 - intent: webinar_registration
   examples: |
     - can you send me the link of registration
@@ -416,6 +434,11 @@ nlu:
     - what is the next webinar
     - i am asking about training
     - i m ask abot traning
+    - give me more information about it
+    - give me more information about webiner
+    - what is webiner
+    - wht is the next webinar
+    - tell me about next webinar
 - intent: goodbye
   examples: |
     - good afternoon
@@ -443,6 +466,7 @@ nlu:
     - ok then bye
     - bye sara
     - bye then
+    - ok bye
 - intent: affirm
   examples: |
     - yes
@@ -472,6 +496,9 @@ nlu:
     - yes thanks
     - yes of  corse
     - yes sur
+    - can i ask you something ?
+    - can i ask you somthing
+    - are you here
 - intent: deny
   examples: |
     - no
@@ -522,6 +549,10 @@ nlu:
     - goood
     - Im fine thinks
     - okay
+    - I'm fine
+    - good
+    - i'm fine
+    - Fine
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -567,6 +598,7 @@ nlu:
     - hi sara
     - and what is your name
     - What's your name
+    - What is  your name
 - intent: fromwekipedia
   examples: |
     - what is hello world programme ?
@@ -905,6 +937,34 @@ nlu:
     - what about [cnn](title)
     - can you tell me about [IA](title)
     - can you tell me about [AI](title)
+    - What does it mean lora technologie in [AI](title)
+    - What does it mean lora technologie un [AI](title)
+    - What does it mean[ artificial intellegence](title)
+    - What is [Artificial Intelligence](title)?
+    - HOW DOES [ARTIFICIAL INTELLIGENCE ](title)[ARTIFICIAL INTELLIGENCE ](title)WORK?
+    - What exactly is [AI](title)?
+    - I don't understand
+    - and [supervised learning](title) ?
+    - i wanna ask about [AI](title)
+    - [CRISP-DM ](title)[CRISP-DM](name)[CRISP](name)[CRISP-DM ](title)[CRISP-DM](name) methodology ?
+    - what is a [balanced dataset](title)[dataset](title)
+    - [balanced datase](title)[balanced datase](title)[balanced dataset](title)[balanced dataset](title)[balanced datase](title)[dataset](title) ??
+    - what about [confusion matrix](title)
+    - [training models](title) in machine learning
+    - tell me about [training models](title)
+    - and what about [clustering ](name)[clustering](title) [algorithms](title)
+    - sara tell me about [clustering](title)
+    - what do you think about [AI](title)
+    - and about [unsupervised](title) ml
+    - what did you know about [AI](title) tell me !
+    - what does [transfe learning](title) mean
+    - what is [transfer learning](title)
+    - what is [data](title) [preprocessing](title)
+    - what is [AI](title) ?
+    - but [supervised learning](title) is what then?
+    - [unsupervised learning](title) ?
+    - [mterics](title)?
+    - What is [IA](title) ?
 - intent: start_with_ai_component
   examples: |
     - how can i start with [nlu](title)
@@ -1180,6 +1240,14 @@ nlu:
     - how can i start  with [pythoon](title)
     - how can i learn [python](title)
     - how can i learn about [it](title)
+    - i want to learn [AI](title)
+    - how to start with [AI](title) ?
+    - how to start with [IA](title) ?
+    - how can i start my studies in [AI](title)
+    - start with [AI](title)
+    - how to start with [artificial intelligence](title)
+    - how to statrt with [Artificial intellegence](title)
+    - how to start with [Ai](title)
 - intent: version_of_ai_component
   examples: |
     - what is the current version of
@@ -1453,6 +1521,10 @@ nlu:
     - can you send me any websites or links of [pygame](title)
     - i can't find any informations about  [python](title)
     - need more infor about [nlp](title)
+    - any information about [AI](title)
+    - can you give me more information
+    - do you have any information about [AI](title)
+    - can you propose for me best course in [AI](title)
 - intent: next_step_ai_component
   examples: |
     - next step after [nlu](title)
@@ -2004,6 +2076,12 @@ nlu:
     - any image for [dl](title)
     - ok any idea about [machine](title) learning
     - thanks i want to know some information from [IA](title)
+    - Thanks ,give me more details
+    - any iage about [deep learning](title)
+    - ok then any image for [deep earning](title)
+    - how does [artificial intelligence](title)[artificial intelligence ](name)[artificial intelligence ](name)[artificial intelligence](title) work ?
+    - how can i evaluate my [model](title)
+    - in general tell me how many types of [ML](title) exist
 - intent: impressed_by_AI
   examples: |
     - I really like AI
@@ -2016,6 +2094,9 @@ nlu:
     - ok the  i love AI
     - i like ml
     - i like [Ai](title)
+    - Call me US you like
+    - i love AI
+    - by the way i love AI
 - intent: chat_language
   examples: |
     - do you speak arabic
@@ -2028,6 +2109,7 @@ nlu:
     - hola
     - what other languages are you fluent in?
     - dit moi
+    - c'est quoi l [IA](title) ?
 - intent: jobs
   examples: |
     - i need a job
