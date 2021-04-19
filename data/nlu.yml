@@ -505,7 +505,6 @@ nlu:
     - can i ask you something ?
     - can i ask you somthing
     - are you here
-    - Yes
 - intent: deny
   examples: |
     - no
@@ -584,6 +583,7 @@ nlu:
     - help me
     - make me feel ok
     - i m so sad
+    - Call me US you like
     - it is been a long day
     - I have been working all day.
     - i don't feel right
@@ -2109,7 +2109,6 @@ nlu:
     - ok the  i love AI
     - i like ml
     - i like [Ai](title)
-    - Call me US you like
     - i love AI
     - by the way i love AI
 - intent: chat_language
@@ -2125,7 +2124,7 @@ nlu:
     - what other languages are you fluent in?
     - dit moi
     - c'est quoi l [IA](title) ?
-    - Comment définir l'[intelligence artificielle](title)[intelligence artificielle](title)
+    - Comment définir l'[intelligence artificielle](title)
     - Qui utilise l'intelligence artificielle
     - Quels sont les avantages de l'intelligence artificielle
 
