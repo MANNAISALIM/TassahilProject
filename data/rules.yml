@@ -30,3 +30,9 @@ rules:
   steps:
   - intent: chat_language
   - action: utter_chat_language
+
+
+- rule: yeh
+  steps:
+  - intent: yeh_rep
+  - action: utter_yeh_rep

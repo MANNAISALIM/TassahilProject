@@ -500,6 +500,8 @@ nlu:
     - yes thanks
     - yes of  corse
     - yes sur
+- intent: yeh_rep
+  examples: |
     - can i ask you something ?
     - can i ask you somthing
     - are you here
@@ -2128,6 +2130,4 @@ nlu:
     - Comment définir l'[intelligence artificielle](title)[intelligence artificielle](title)
     - Qui utilise l'intelligence artificielle
     - Quels sont les avantages de l'intelligence artificielle
-- intent: jobs
-  examples: |
-    - i need a job
+
