@@ -496,6 +496,8 @@ nlu:
     - yes thanks
     - yes of  corse
     - yes sur
+- intent: yeh_rep
+  examples: |
     - can i ask you something ?
     - can i ask you somthing
     - are you here
@@ -2110,6 +2112,3 @@ nlu:
     - what other languages are you fluent in?
     - dit moi
     - c'est quoi l [IA](title) ?
-- intent: jobs
-  examples: |
-    - i need a job

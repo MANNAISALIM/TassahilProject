@@ -77,7 +77,7 @@ intents:
     use_entities: true
 - chat_language:
     use_entities: true
-- jobs:
+- yeh_rep:
     use_entities: true
 entities:
 - name
@@ -94,6 +94,9 @@ slots:
     auto_fill: true
     influence_conversation: true
 responses:
+  utter_yeh_rep:
+  - text: "yes"
+  - text: " yes, sure"
   utter_greet:
   - text: Hey ! How are you?
   - text: Hey friend! How are you?
