@@ -26,6 +26,8 @@ nlu:
     - Hi
     - Hello sara
     - hello sara
+    - helo sara
+    - Hello
 - intent: name_entry
   examples: |
     - my name is [radhwen](name)
@@ -87,6 +89,7 @@ nlu:
     - [abdellaltif](name)
     - you can call me abdou
     - abdou
+    - my name is [salajkn](name)
 - intent: fine
   examples: |
     - how are you ?
@@ -110,6 +113,7 @@ nlu:
     - fine you ?
     - i'm fin and you
     - how r u ?
+    - Fine, what about you ?
 - intent: revile
   examples: |
     - curse
@@ -501,6 +505,7 @@ nlu:
     - can i ask you something ?
     - can i ask you somthing
     - are you here
+    - Yes
 - intent: deny
   examples: |
     - no
@@ -518,6 +523,7 @@ nlu:
     - In my opinion, no.
     - i m not agree with you
     - im no happy
+    - No
 - intent: mood_great
   examples: |
     - perfect
@@ -549,12 +555,14 @@ nlu:
     - i fine tank you
     - im fine
     - goood
+    - hi sara
     - Im fine thinks
     - okay
     - I'm fine
     - good
     - i'm fine
     - Fine
+    - im fine thank you
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -579,6 +587,7 @@ nlu:
     - it is been a long day
     - I have been working all day.
     - i don't feel right
+    - Don't call me anything
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -598,6 +607,7 @@ nlu:
     - and what is your name
     - What's your name
     - What is  your name
+    - What's your name ?
 - intent: fromwekipedia
   examples: |
     - what is hello world programme ?
@@ -926,7 +936,7 @@ nlu:
     - [tensorflow](title) what is ?
     - what is [deep lerning](title)
     - [stt](title)
-    - [STT](title)[STT](name)
+    - [STT](name)[STT](title)
     - [Spech to text](title)
     - do you know [keras](title)
     - wat is [deep.learning](title)
@@ -945,13 +955,13 @@ nlu:
     - I don't understand
     - and [supervised learning](title) ?
     - i wanna ask about [AI](title)
-    - [CRISP-DM ](title)[CRISP-DM](name)[CRISP](name)[CRISP-DM ](title)[CRISP-DM](name) methodology ?
+    - [CRISP-DM ](title)[CRISP-DM](name)[CRISP-DM](name)[CRISP](name)[CRISP-DM ](title)methodology ?
     - what is a [balanced dataset](title)[dataset](title)
-    - [balanced datase](title)[balanced datase](title)[balanced dataset](title)[balanced dataset](title)[balanced datase](title)[dataset](title) ??
+    - [balanced datase](title)[balanced dataset](title)[balanced dataset](title)[balanced datase](title)[balanced datase](title)[dataset](title) ??
     - what about [confusion matrix](title)
     - [training models](title) in machine learning
     - tell me about [training models](title)
-    - and what about [clustering ](name)[clustering](title) [algorithms](title)
+    - and what about [clustering](title)[clustering ](name)[algorithms](title)
     - sara tell me about [clustering](title)
     - what do you think about [AI](title)
     - and about [unsupervised](title) ml
@@ -964,6 +974,8 @@ nlu:
     - [unsupervised learning](title) ?
     - [mterics](title)?
     - What is [IA](title) ?
+    - What is [machine learning](title)
+    - What is [AI](title)
 - intent: start_with_ai_component
   examples: |
     - how can i start with [nlu](title)
@@ -1247,6 +1259,7 @@ nlu:
     - how to start with [artificial intelligence](title)
     - how to statrt with [Artificial intellegence](title)
     - how to start with [Ai](title)
+    - How can i learn the [AI](title) ?
 - intent: version_of_ai_component
   examples: |
     - what is the current version of
@@ -1524,6 +1537,7 @@ nlu:
     - can you give me more information
     - do you have any information about [AI](title)
     - can you propose for me best course in [AI](title)
+    - I want you to help me in[ artificial intelligence](title)
 - intent: next_step_ai_component
   examples: |
     - next step after [nlu](title)
@@ -1794,6 +1808,7 @@ nlu:
     - whhat is the next [AI](title)
     - what is after [nlp](title)
     - what can i do afetr [cnn](title)
+    - What are the other technologies related to [ai](title)
 - intent: architecture_of_ai_component
   examples: |
     - any images for  [nlu](title) explication
@@ -2078,9 +2093,10 @@ nlu:
     - Thanks ,give me more details
     - any iage about [deep learning](title)
     - ok then any image for [deep earning](title)
-    - how does [artificial intelligence](title)[artificial intelligence ](name)[artificial intelligence ](name)[artificial intelligence](title) work ?
+    - how does [artificial intelligence](title)[artificial intelligence ](name)[artificial intelligence](title)[artificial intelligence ](name)work ?
     - how can i evaluate my [model](title)
     - in general tell me how many types of [ML](title) exist
+    - What kind of services does the [ai ](title)provide
 - intent: impressed_by_AI
   examples: |
     - I really like AI
@@ -2109,3 +2125,7 @@ nlu:
     - what other languages are you fluent in?
     - dit moi
     - c'est quoi l [IA](title) ?
+    - Comment définir l'[intelligence artificielle](title)[intelligence artificielle](title)
+    - Qui utilise l'intelligence artificielle
+    - Quels sont les avantages de l'intelligence artificielle
+
