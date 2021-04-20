@@ -107,8 +107,8 @@ responses:
   - text: ' It is a pleaser to speak with you.Can I help you {name} !!! '
   - text: I am looking forward to speaking with you. How can I help you {name}?
   utter_i_m_fine:
-  - text: ' So  perfect . What do you want me to call you? '
-  - text: ' so so perfect.  what is your name?'
+  - text: ' Perfect . What do you want me to call you? '
+  - text: ' So so perfect.  what is your name?'
   utter_happy_joke:
   - text: ' Did you hear about the italian chef that died? He pasta way :) '
   - text: ' My boss told me to have a good day.. so I went home :)'
@@ -127,7 +127,7 @@ responses:
   utter_inform_services:
   - text: ' Tassahil offer many services like : Training around the AI, Training around the IOT, Career reconversion sessions in AI and IOT academic projects (PFE), Research projects (Master Doctorate) and industrial, Information System Services and Solution Consulting and Development of innovative solutions . For more details, here is our [website](https://tassahil.com/)'
   utter_cheer_up:
-  - text: Don t worry it is gonna be ok
+  - text: 'Don t worry it is gonna be ok'
   - text: 'Just relax and take it easy '
   - text: 'sunny day will come '
   utter_did_that_help:
@@ -223,6 +223,7 @@ responses:
   - text: ' I speak only English '
   - text: ' My native language is English'
 actions:
+- utter_yeh_rep
 - utter_chat_language
 - utter_impressed_by_AI
 - utter_greet

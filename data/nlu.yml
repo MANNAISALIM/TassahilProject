@@ -90,6 +90,7 @@ nlu:
     - you can call me abdou
     - abdou
     - my name is [salajkn](name)
+    - you can call me [ahmed](name)
 - intent: fine
   examples: |
     - how are you ?
@@ -130,7 +131,6 @@ nlu:
     - cuk you
     - bitch
     - hi fucken dtupred
-    - how does artifical intekkigence work ?
 - intent: jokes
   examples: |
     - tell me a joke
@@ -163,7 +163,7 @@ nlu:
   examples: |
     - and where is tassahil center?
     - tassahil location!
-    - how can'I find tassahil center?
+    - how can I find tassahil center?
     - is tassahil in sfax
     - tunis !
     - where is tassahil
@@ -186,8 +186,6 @@ nlu:
     - what is tassahil
     - ok then what is tassahil
     - yes and wher is tassahil
-    - tassail
-    - tassahil
     - i wonna know tassahil location
     - wher is tassahil
     - and wher is tsaahil
@@ -217,13 +215,13 @@ nlu:
     - tassahil center
     - tasahil center !
     - and what is tassahil definition
-    - what ois tassahil center
+    - what is tassahil center
     - tell me about tassahil
     - what is tassahil center
     - more information about tassahil
     - website of tassail
     - ok ad what is the website of tassahi
-    - what tassahi
+    - what tassahil
     - i need more  ifirmationa bout tassahil
     - can you tell me about tasahil center
     - What do you think about tassahil
@@ -234,7 +232,6 @@ nlu:
     - tassahil services
     - tassahil business
     - what is your domain!
-    - services ?
     - any information about tassahil services!
     - how many sevices
     - services provides
@@ -549,13 +546,10 @@ nlu:
     - I'm good
     - fine
     - I am good
-    - ok thnaks
     - ok
     - i fine tank you
     - im fine
     - goood
-    - hi sara
-    - Im fine thinks
     - okay
     - I'm fine
     - good
@@ -946,22 +940,16 @@ nlu:
     - what about [cnn](title)
     - can you tell me about [IA](title)
     - can you tell me about [AI](title)
-    - What does it mean lora technologie in [AI](title)
-    - What does it mean lora technologie un [AI](title)
-    - What does it mean[ artificial intellegence](title)
+    - What does it mean[artificial intellegence](title)
     - What is [Artificial Intelligence](title)?
-    - HOW DOES [ARTIFICIAL INTELLIGENCE ](title)[ARTIFICIAL INTELLIGENCE ](title)WORK?
     - What exactly is [AI](title)?
-    - I don't understand
     - and [supervised learning](title) ?
     - i wanna ask about [AI](title)
-    - [CRISP-DM ](title)[CRISP-DM](name)[CRISP-DM](name)[CRISP](name)[CRISP-DM ](title)methodology ?
-    - what is a [balanced dataset](title)[dataset](title)
-    - [balanced datase](title)[balanced dataset](title)[balanced dataset](title)[balanced datase](title)[balanced datase](title)[dataset](title) ??
+    - what is a [balanced dataset](title)
     - what about [confusion matrix](title)
     - [training models](title) in machine learning
     - tell me about [training models](title)
-    - and what about [clustering](title)[clustering ](name)[algorithms](title)
+    - and what about [clustering](title)
     - sara tell me about [clustering](title)
     - what do you think about [AI](title)
     - and about [unsupervised](title) ml
@@ -2093,10 +2081,8 @@ nlu:
     - Thanks ,give me more details
     - any iage about [deep learning](title)
     - ok then any image for [deep earning](title)
-    - how does [artificial intelligence](title)[artificial intelligence ](name)[artificial intelligence](title)[artificial intelligence ](name)work ?
     - how can i evaluate my [model](title)
     - in general tell me how many types of [ML](title) exist
-    - What kind of services does the [ai ](title)provide
 - intent: impressed_by_AI
   examples: |
     - I really like AI
@@ -2123,8 +2109,8 @@ nlu:
     - hola
     - what other languages are you fluent in?
     - dit moi
-    - c'est quoi l [IA](title) ?
-    - Comment définir l'[intelligence artificielle](title)
+    - c'est quoi l IA ?
+    - Comment définir l'intelligence artificielle
     - Qui utilise l'intelligence artificielle
     - Quels sont les avantages de l'intelligence artificielle
 
